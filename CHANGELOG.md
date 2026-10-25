@@ -1,5 +1,71 @@
 # Änderungen · Changelog
 
+## 1.1.0
+
+**ETS2 Walk heißt jetzt BeyondCab** und läuft auch in American Truck Simulator. Das Setup löst die alte Installation ab, Einstellungen und Papiere werden übernommen.
+
+### Neu
+
+- American Truck Simulator 1.61: alles, was es in ETS2 gibt – Aussteigen, Laufen, Kuppeln, Tanken, Papiere, Ausrüstung
+- US-Papiere in ATS: Bill of Lading (mit HAZMAT-Kennzeichnung nach 49 CFR), Tankbeleg in Gallonen und Dollar, ELD statt Fahrerkarte, DOT-Kontrolle mit drei Warndreiecken und Feuerlöscher, Pause nach 8 h (Hours of Service)
+- Road Trip (ATS): Sendung beim Absender abholen und den Lieferschein unterschreiben, auf den Beifahrersitz legen, am Ziel dem Empfänger übergeben – der Auftrag wird danach automatisch abgeschlossen. Die Sendung ist erst sichtbar, wenn sie im Auto liegt
+- Hydraulische Stützen (z. B. Autotransporter): eigene Schritte und Geräusche statt Kurbeln
+- Tore und Schranken öffnen sich, wenn du zu Fuß davor stehst (ETS2)
+- Neues Logo und neue Symbole im Menü
+
+### Verbessert
+
+- Eigene Figuren (Mitarbeiter, Absender, Empfänger) und aufgestellte Gegenstände werfen jetzt auch zu Fuß Schatten
+- Meldungen ersetzen sich sofort, statt sich anzustellen; im Auto steht „Auto“ statt „Truck“
+- Funkschlüssel: Fenster fahren beim Abschließen ganz hoch bzw. runter
+- „Kuppeln hängt fest?“: Knopf in den Einstellungen setzt den Ablauf am Anhänger zurück
+
+---
+
+**ETS2 Walk is now called BeyondCab** and also runs in American Truck Simulator. The setup replaces the old installation; settings and papers are kept.
+
+### New
+
+- American Truck Simulator 1.61: everything ETS2 has – getting out, walking, coupling, refuelling, papers, equipment
+- US papers in ATS: Bill of Lading (with HAZMAT marking per 49 CFR), fuel receipt in gallons and dollars, ELD instead of a driver card, DOT inspection with three warning triangles and a fire extinguisher, break after 8 h (Hours of Service)
+- Road Trip (ATS): pick up the parcel from the sender and sign the delivery note, put it on the passenger seat, hand it over to the recipient at the destination – the job then completes by itself. The parcel only shows up once it is in the car
+- Hydraulic landing gear (e.g. car transporters): own steps and sounds instead of cranking
+- Gates and barriers open when you stand in front of them on foot (ETS2)
+- New logo and new icons in the menu
+
+### Improved
+
+- Own figures (worker, sender, recipient) and placed items now cast shadows while you walk
+- Messages replace each other at once instead of queueing; in a car it says “car” instead of “truck”
+- Remote key: windows now go fully up or down when locking
+- “Coupling stuck?”: a button in the settings resets the trailer steps
+
+## 1.0.3
+
+### Neu
+
+- Feuerlöscher im Staukasten: eigenes 3D-Modell (6-kg-Pulverlöscher mit Etikett, Manometer und Schlauch), Pflicht bei Gefahrgut
+- Temperaturprotokoll am Kühlaggregat ausdrucken: Messwerte und Kurve seit dem Abholen, liegt in der Papiermappe
+- Tagesausdruck am Fahrtenschreiber (oben in der Dachkonsole): Lenk-, Pausen-, Arbeits- und Ruhezeiten der letzten 24 Stunden
+- Polizeikontrollen wie im Spiel: Hält dich die Polizei an (zu schnell, Rotlicht, ohne Licht …), prüft sie Frachtbrief, Fahrerkarte und bei Gefahrgut Keil, Warnzeichen und Feuerlöscher und druckt den Tagesausdruck. Blitzer prüfen nichts. Die zufälligen Straßenkontrollen gibt es nicht mehr
+
+### Verbessert
+
+- Taschenlampe in der Hand: neues, genaueres Modell mit Kühlrippen, Reflektor und gerändeltem Griff
+
+---
+
+### New
+
+- Fire extinguisher in the storage box: own 3D model (6 kg powder extinguisher with label, gauge and hose), required for dangerous goods
+- Print the temperature record at the reefer unit: readings and curve since pickup, kept in the paper folder
+- Daily printout at the tachograph (overhead console): driving, break, work and rest times of the last 24 hours
+- Police checks like in the game: when the police stops you (speeding, red light, no lights …), they check the consignment note, driver card and, with dangerous goods, chock, warning signs and fire extinguisher, and print the daily printout. Speed cameras check nothing. The random roadside checks are gone
+
+### Improved
+
+- Flashlight in your hand: new, more detailed model with cooling fins, reflector and knurled grip
+
 ## 1.0.2
 
 ### Aufträge und Papiere
