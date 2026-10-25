@@ -4,7 +4,7 @@
 
 Walk around in Euro Truck Simulator 2. Get out, walk around your truck, couple the trailer by hand, sign the consignment note with the warehouse worker, pay at the pump with your fuel card, set up warning lights, take a break on a bench and go to sleep in the cab at night – all in first person, with its own sounds and an in-game menu.
 
-![In-game menu](bilder/menue-en.png)
+![In-game menu](bilder/einstellungen-en.png)
 
 Fan project, not affiliated with SCS Software. Trademarks belong to their owners.
 

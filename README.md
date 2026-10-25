@@ -4,7 +4,7 @@ Deutsch · [English](README.en.md)
 
 Zu Fuß unterwegs in Euro Truck Simulator 2. Aussteigen, um den Truck herumgehen, den Auflieger von Hand ankuppeln, beim Lager-Mitarbeiter den Frachtbrief unterschreiben, an der Zapfsäule mit Tankkarte zahlen, Warnleuchten aufstellen, auf einer Bank Pause machen und abends in der Kabine schlafen gehen – alles aus der Ich-Sicht, mit eigenen Geräuschen und einem Menü im Spiel.
 
-![Menü im Spiel](bilder/menue-de.png)
+![Menü im Spiel](bilder/einstellungen-de.png)
 
 Fan-Projekt, nicht verbunden mit SCS Software. Die Marken gehören ihren Inhabern.
 
