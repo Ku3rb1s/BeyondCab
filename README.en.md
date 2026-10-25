@@ -8,6 +8,8 @@ Walk around in Euro Truck Simulator 2. Get out, walk around your truck, couple t
 
 Fan project, not affiliated with SCS Software. Trademarks belong to their owners.
 
+Built with [Claude Code](https://claude.com/claude-code) (Anthropic): Claude wrote the code, based on ideas, requirements and in-game testing by Ku3rb1s.
+
 ## Contents
 
 - [Features](#features)

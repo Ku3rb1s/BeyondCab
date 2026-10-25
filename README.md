@@ -8,6 +8,8 @@ Zu Fuß unterwegs in Euro Truck Simulator 2. Aussteigen, um den Truck herumgehen
 
 Fan-Projekt, nicht verbunden mit SCS Software. Die Marken gehören ihren Inhabern.
 
+Entwickelt mit [Claude Code](https://claude.com/claude-code) (Anthropic): Den Code hat Claude geschrieben, nach Ideen, Vorgaben und Tests im Spiel von Ku3rb1s.
+
 ## Inhalt
 
 - [Was es kann](#was-es-kann)
