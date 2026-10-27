@@ -1,5 +1,94 @@
 # Änderungen · Changelog
 
+## 1.2.0
+
+**Führerschein, Bußgeldbescheide, Gurt und neue Ausrüstung** – dazu eine neue Papiermappe und Modelle, die aussehen wie die Deko des Spiels.
+
+### Neu
+
+- Führerschein (ETS2) bzw. CDL (ATS) mit eigenen Daten und Foto (Profilbild des Spielprofils oder eigenes Bild): Klassen, ADR-Bescheinigung mit Tankkurs, Code 95; in ATS CDL-Klasse, Endorsements und DOT Medical Card – einstellbar unter Papiere › Führerschein
+- Prüfungen: Die Polizei prüft bei jeder Kontrolle Klasse und Nachweise, der Blitzer meldet eine fehlende Fahrerlaubnis per Brief, der Verlader gibt ohne gültige ADR-Bescheinigung bzw. Hazmat-Endorsement keine Gefahrgut-Papiere heraus, an Wiegestationen in ATS prüft der DOT-Beamte CDL und Medical Card
+- Prüfkarte oben rechts: beim Annehmen eines Auftrags (bei Gefahrgut immer) und wenn der Verlader prüft – was der Auftrag verlangt, mit Haken, Ausrufezeichen oder Kreuz
+- Ablaufdaten: ADR-Bescheinigung, Code 95 und Medical Card laufen ab – Erinnerung eine Woche vorher, Verlängern im Menü
+- Bußgeldbescheide nach jeder Kontrolle und einige Stunden nach dem Blitzer: in Deutschland nach OWiG mit Gebühr und Auslagen, im Ausland mit Titel in der Landessprache, in ATS als Traffic Citation – die letzten 20 bleiben gespeichert, im Menü unter Papiere und als PDF
+- Anschnallen (abschaltbar): Gurt mit J; ohne Gurt ab 25 km/h Warnleuchte und Gong in Intervallen wie im Auto (Lautstärke einstellbar), die Polizei kassiert 30 € bzw. 50 $
+- Papiermappe mit Fächern (Auftrag, Unterwegs, Ausweis und Bescheide): Zahl öffnet ein Fach, dann ein Blatt, P geht zurück
+- Papiere auch im stehenden Truck bzw. Auto ansehen (P blättert durch); Größe der Papiere einstellbar, zu Fuß und im Fahrzeug getrennt
+- Führerschein-Seite im Menü mit Unterseiten (Übersicht, Daten, Klassen, Nachweise): Vorschau der Karte, per Klick groß; Klassen als Kacheln mit Sinnbild; Land bzw. Bundesstaat aus einer Liste; Nachweise mit Gültigkeit und Verlängern in einer Zeile; in ATS erklärt die CDL-Seite jede Klasse und jedes Endorsement
+- Frachtbrief bzw. Bill of Lading: deine Firma aus dem Spielprofil (oder ein eigener Name) als Frachtführer, dazu der Fahrername (abschaltbar) – unterschrieben wird als Fahrer
+- Papiere als PDF speichern: Frachtbriefe, Tankbelege und Bescheide (Menü › Papiere)
+- Erste-Hilfe-Kasten im Staukasten – in ETS2 bei Kontrollen Pflicht
+- Arbeitsleuchte: LED-Strahler mit Akku auf einem Dreibein, leuchtet wirklich, an- und ausschaltbar
+- Taschenlampe: SOS-Modus (blinkt im Morsetakt), und du wählst, welche Modi beim Halten durchgeschaltet werden
+- Ladungssicherung bei der Abfahrtskontrolle je nach Aufbau: Spanngurte, Ketten, Radgurte, Rungen, Twistlocks, Plane, Domdeckel
+- Automatische Updates: BeyondCab sucht beim Start nach einer neuen Version und installiert sie auf Wunsch (Menü › Allgemein › Updates)
+- Einführung: neue Schritte, in denen du Führerschein bzw. CDL gleich einstellst und Kontrollen, Bescheide und Gurt an- oder abschaltest
+
+### Verbessert
+
+- Staukasten neu: Kacheln mit Symbol, wie viele im Kasten und wie viele draußen stehen
+- Eigene Modelle wie die Deko des Spiels: weiche Schattierung in Ecken und Kanten, kaum noch Plastik-Glanz, ruhigere Texturen
+- Road Trip: statt eines Klemmbretts liegt die echte Sendung (Umschlag, Aktenkoffer, Paket) neben Absender bzw. Empfänger
+- ATS: Begriffe wie in den USA (Bill of Lading, Scale Ticket, Citation, ELD) auch in den Meldungen
+- Menü: Pfeile zu Truck, Auflieger und Mitarbeiter als eigener Abschnitt „Wegweiser“, alle Lautstärken unter Geräusche, Auswahllisten mit Kürzel und Namen
+
+### Behoben
+
+- Tasten (Aktion, Taschenlampe, Funkschlüssel, Schnellwahl, Zahlen, PIN am Terminal) reagierten auch, wenn ein anderes Fenster vorne war; Alt+Tab öffnete das Schnellwahl-Rad
+- Nach dem Laden eines Spielstands galt der Truck teils noch als abgeschlossen
+- Abkoppeln ohne Feststellbremse: Die Bremse, die BeyondCab gezogen hatte, wurde gelöst, während man noch draußen stand
+- Road Trip im Auto: Meldung „nicht am ELD angemeldet“, Lkw-Ausrüstung bei der Kontrolle verlangt, Meldungen auf Englisch teils deutsch
+- ATS: Hinweis auf schriftliche Weisungen (ADR), die es dort nicht gibt
+- Taschenlampe: Lichtkegel schwenkte nach dem Einschalten aus der alten Richtung heran
+- Plombe lag bei manchen Aufliegern im Aufbau statt an den Türen
+- An Wiegestationen bzw. Kontrollstellen wurde man bei längerem Stehen alle 2 Spielstunden erneut kontrolliert
+- Feuerlöscher: Spalt zwischen Standring und Behälter
+
+---
+
+**Driving licence, fine notices, seatbelt and new equipment** – plus a new paper folder and models that look like the game's own decorations.
+
+### New
+
+- Driving licence (ETS2) or CDL (ATS) with your own data and photo (your game profile picture or your own image): classes, ADR certificate with tank course, code 95; in ATS CDL class, endorsements and DOT medical card – set under Papers › Licence
+- Checks: police check your class and certificates at every stop, speed cameras report a missing licence by letter, the shipper hands out no dangerous goods papers without a valid ADR certificate or hazmat endorsement, at ATS weigh stations the DOT officer checks CDL and medical card
+- Check card at the top right: when you accept a job (always with dangerous goods) and when the shipper checks – what the job requires, with tick, exclamation mark or cross
+- Expiry dates: ADR certificate, code 95 and medical card expire – reminder a week before, renew in the menu
+- Notices of fine after every check and a few hours after a speed camera: in Germany under the OWiG with fee and expenses, abroad with the title in the local language, in ATS as a traffic citation – the last 20 are kept, in the menu under Papers and as PDF
+- Seatbelt (optional): buckle up with J; without it, above 25 km/h a warning light and a chime in intervals like in a car (volume adjustable), the police charge €30 or $50
+- Paper folder with sections (Job, On the road, Licence and fines): a number opens a section, then a sheet, P goes back
+- View papers while the truck or car is standing (P pages through); paper size adjustable, separately on foot and in the vehicle
+- Licence page in the menu with sub-pages (overview, details, classes, certificates): card preview, click to view it large; classes as tiles with symbols; country or state from a list; certificates with validity and renewal in one row; in ATS the CDL page explains every class and endorsement
+- Consignment note or bill of lading: your company from the game profile (or a name of your own) as the carrier, plus the driver's name (optional) – you sign as the driver
+- Save papers as PDF: consignment notes, fuel receipts and notices (menu › Papers)
+- First aid kit in the storage box – required at checks in ETS2
+- Work light: battery LED floodlight on a tripod, really lights up, can be switched on and off
+- Flashlight: SOS mode (blinks in Morse rhythm), and you choose which modes holding the key cycles through
+- Load securing at the departure check depending on the body: straps, chains, wheel straps, stakes, twistlocks, tarp, dome lids
+- Automatic updates: BeyondCab checks for a new version at start and installs it if you want (menu › General › Updates)
+- Introduction: new steps to set up your licence or CDL right away and to switch checks, notices and seatbelt on or off
+
+### Improved
+
+- New storage box: tiles with icon, how many are in the box and how many are out
+- Own models like the game's decorations: soft shading in corners and edges, hardly any plastic shine, calmer textures
+- Road Trip: instead of a clipboard the real parcel (envelope, briefcase, box) lies next to the sender or recipient
+- ATS: US terms (bill of lading, scale ticket, citation, ELD) in the messages too
+- Menu: pointers to truck, trailer and worker in their own "Pointers" section, all volumes under Sounds, pick lists with code and name
+
+### Fixed
+
+- Keys (action, flashlight, remote key, quick menu, numbers, PIN at the terminal) also reacted while another window was in front; Alt+Tab opened the quick menu
+- After loading a save the truck sometimes still counted as locked
+- Uncoupling without the parking brake: the brake BeyondCab had applied was released while you were still outside
+- Road Trip in a car: "not logged in to the ELD" message, truck equipment demanded at checks, some English messages partly German
+- ATS: hint about instructions in writing (ADR), which don't exist there
+- Flashlight: the beam swung in from the old direction after switching on
+- On some trailers the seal sat inside the body instead of at the doors
+- At weigh stations and inspection points you were checked again every 2 game hours if you stayed there
+- Fire extinguisher: gap between the base ring and the cylinder
+
+
 ## 1.1.0
 
 **ETS2 Walk heißt jetzt BeyondCab** und läuft auch in American Truck Simulator. Das Setup löst die alte Installation ab, Einstellungen und Papiere werden übernommen.

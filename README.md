@@ -28,6 +28,8 @@ English · [Deutsch](README.de.md)
 
 📄 **Real paperwork** – In ETS2 the CMR consignment note from the warehouse worker, in ATS the Bill of Lading. Sign and stamp it yourself and get it back signed at the destination. Plus seals, weighing tickets, dangerous goods papers, driver card or ELD, and police or DOT inspections.
 
+🪪 **Driving licence and fines** – Your licence (ETS2) or CDL (ATS) with classes, ADR and code 95 or endorsements and medical card – with your game profile picture. Police, speed cameras and the shipper check it, notices of fine or traffic citations arrive in your paper folder. And buckle up: without a seatbelt the chime warns you.
+
 ⛽ **Pay at the pump** – Open the fuel cap, card into the terminal, PIN, watch amount and litres (gallons and dollars in ATS) count up, and get a receipt.
 
 📦 **Road Trip (ATS)** – On courier jobs you pick up the parcel from the sender, put it on the passenger seat and hand it over to the recipient at the destination – with a delivery note.
@@ -49,7 +51,7 @@ Nothing in the game is changed: no mods in the game files, no changes to `config
 | ![Consignment note](bilder/frachtbrief-en.png) | ![Bill of Lading](bilder/bill-of-lading.png) |
 | CMR consignment note (ETS2), signed | Bill of Lading with HAZMAT (ATS) |
 | ![Paper folder](bilder/papiermappe-en.png) | ![Quick menu](bilder/schnellwahl-en.png) |
-| Paper folder (P) | Quick menu (hold Tab) |
+| Paper folder (P) with sections | Quick menu (hold Tab) |
 | ![Refuelling](bilder/tanken-en.png) | ![Refuelling in the US](bilder/tanken-us.png) |
 | Fuel receipt, card terminal and pump | The same in ATS: gallons and dollars |
 | ![Instructions in writing](bilder/weisungen-en.png) | ![ELD](bilder/eld.png) |
@@ -104,13 +106,24 @@ Nothing in the game is changed: no mods in the game files, no changes to `config
 <summary><b>Jobs and papers</b></summary>
 
 - On every job a warehouse worker stands next to the trailer and hands you the papers: in ETS2 the multi-part CMR consignment note, in ATS the Bill of Lading – with companies, cities, cargo, weight and plates from the job
-- You sign with the mouse and stamp it yourself. Set your name and town in the menu
+- You sign with the mouse and stamp it yourself. Your company comes from your game profile (or set your own), with your name as the driver
 - At the destination you hand them to the worker and get them back signed after unloading. “Skip parking” counts as the hand-over
 - Sealed trailers, your own trailer with a loading sheet, pallet exchange (ETS2), weighing tickets for tank, silo and bulk loads
 - Dangerous goods: in ETS2 per ADR with instructions in writing, in ATS per 49 CFR with HAZMAT marking and the ERG guide
 - Police or DOT inspections: when the police stop you, they check your papers, driver card or ELD and, for dangerous goods, your equipment. Anything missing costs a fine
 - Refrigerated trailers: print the temperature record at the reefer unit
-- Everything is in the paper folder (P); your latest papers are kept in the menu under Papers
+- Everything is in the paper folder (P), sorted into sections – also while the truck is standing. Your latest papers are kept in the menu under Papers and can be saved as PDF
+
+</details>
+
+<details>
+<summary><b>Driving licence, checks and fines</b></summary>
+
+- Your driving licence (ETS2) or CDL (ATS) as a card: name, date of birth, photo (your game profile picture or your own), classes, ADR certificate and code 95 – in ATS CDL class, endorsements and DOT medical card. Set it up in the introduction or under Papers › Licence
+- When you accept a job, a card at the top right shows whether your licence covers it. Without a valid ADR certificate or hazmat endorsement the shipper won't hand out dangerous goods papers
+- Police and DOT check class and certificates, ATS weigh stations check CDL and medical card. Certificates expire – you get a reminder a week before and renew them in the menu
+- After a check or a speed camera a notice of fine arrives as a letter: in Germany under the OWiG, abroad with the title in the local language, in ATS as a traffic citation
+- Seatbelt with J: without it, above 25 km/h the warning light and chime come on, like in a real car. The police charge for it
 
 </details>
 
@@ -139,11 +152,11 @@ BeyondCab notices by itself which game is running – there's nothing to choose.
 <summary><b>Remote key, equipment and more</b></summary>
 
 - Remote key: lock and unlock with indicators and an optional short honk, hold at the truck for the windows, hold far away to find it. Follow-me-home and automatic locking
-- In the storage box behind the cab: warning lights, cones, warning triangle, chocks, fire extinguisher and a camping chair. Take them out, place them, pick them up again
+- In the storage box behind the cab: warning lights, cones, warning triangle, chocks, fire extinguisher, first aid kit, a battery work light on a tripod and a camping chair. Take them out, place them, pick them up again
 - Quick menu (hold Tab), benches at rest areas to take a break
-- Flashlight in your hand or on your head, with several modes
+- Flashlight in your hand or on your head, with several modes including SOS
 - Controller with Xbox or PlayStation symbols, all buttons can be remapped
-- An introduction on first start, export and import of settings, German and English
+- An introduction on first start, automatic updates, export and import of settings, German and English
 
 </details>
 

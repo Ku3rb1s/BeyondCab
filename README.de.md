@@ -28,6 +28,8 @@ Aussteigen, um den Truck gehen, von Hand kuppeln, Papiere unterschreiben, tanken
 
 📄 **Papiere wie in echt** – In ETS2 der CMR-Frachtbrief vom Lager-Mitarbeiter, in ATS die Bill of Lading. Selbst unterschreiben und stempeln, am Ziel quittiert zurück. Dazu Plombe, Wiegeschein, Gefahrgut-Papiere, Fahrerkarte bzw. ELD und Polizei- bzw. DOT-Kontrollen.
 
+🪪 **Führerschein und Bußgeld** – Dein Führerschein (ETS2) bzw. deine CDL (ATS) mit Klassen, ADR und Code 95 bzw. Endorsements und Medical Card – mit deinem Profilbild aus dem Spiel. Polizei, Blitzer und Verlader prüfen ihn, Bußgeldbescheide bzw. Strafzettel kommen in die Papiermappe. Und anschnallen: Ohne Gurt warnt der Gong.
+
 ⛽ **Tanken mit Karte** – Tankdeckel auf, Karte ins Terminal, PIN, an der Säule zählen Betrag und Liter (in ATS Gallonen und Dollar) mit, danach gibt es einen Beleg.
 
 📦 **Road Trip (ATS)** – Bei Kurieraufträgen holst du die Sendung beim Absender ab, legst sie auf den Beifahrersitz und übergibst sie am Ziel dem Empfänger – mit Lieferschein.
@@ -49,7 +51,7 @@ Am Spiel selbst wird nichts verändert: keine Mods in den Spieldateien, keine Ä
 | ![Frachtbrief](bilder/frachtbrief-de.png) | ![Bill of Lading](bilder/bill-of-lading.png) |
 | CMR-Frachtbrief (ETS2), quittiert | Bill of Lading mit HAZMAT (ATS) |
 | ![Papiermappe](bilder/papiermappe-de.png) | ![Schnellwahl](bilder/schnellwahl-de.png) |
-| Papiermappe (P) | Schnellwahl-Rad (Tab halten) |
+| Papiermappe (P) mit Fächern | Schnellwahl-Rad (Tab halten) |
 | ![Tanken](bilder/tanken-de.png) | ![Tanken in den USA](bilder/tanken-us.png) |
 | Tankbeleg, Kartenterminal und Zapfsäule | Dasselbe in ATS: Gallonen und Dollar |
 | ![Schriftliche Weisungen](bilder/weisungen-de.png) | ![ELD](bilder/eld.png) |
@@ -104,13 +106,24 @@ Am Spiel selbst wird nichts verändert: keine Mods in den Spieldateien, keine Ä
 <summary><b>Aufträge und Papiere</b></summary>
 
 - Bei jedem Auftrag steht ein Lager-Mitarbeiter neben dem Auflieger und gibt dir die Papiere: in ETS2 der CMR-Frachtbrief im Durchschreibesatz, in ATS die Bill of Lading – mit Firmen, Städten, Ladung, Gewicht und Kennzeichen aus dem Auftrag
-- Du unterschreibst selbst mit der Maus und drückst deinen Stempel drauf. Name und Ort stellst du im Menü ein
+- Du unterschreibst selbst mit der Maus und drückst deinen Stempel drauf. Die Firma kommt aus deinem Spielprofil (oder du trägst eine eigene ein), dazu dein Name als Fahrer
 - Am Ziel gibst du sie beim Mitarbeiter ab, nach dem Entladen bekommst du sie quittiert zurück. „Parken überspringen“ zählt wie die Übergabe
 - Verplombte Auflieger, eigener Auflieger mit Verladeschein, Palettentausch (ETS2), Wiegeschein bei Tank, Silo und Schüttgut
 - Gefahrgut: in ETS2 nach ADR mit Schriftlichen Weisungen, in ATS nach 49 CFR mit HAZMAT-Kennzeichnung und ERG-Leitfaden
 - Polizei- bzw. DOT-Kontrollen: Hält dich die Polizei an, prüft sie Papiere, Fahrerkarte bzw. ELD und bei Gefahrgut die Ausrüstung. Was fehlt, kostet ein Bußgeld
 - Kühlauflieger: Am Kühlaggregat druckst du das Temperaturprotokoll aus
-- Alles steckt in der Papiermappe (P), die letzten Papiere liegen im Menü unter Papiere
+- Alles steckt in der Papiermappe (P), sortiert in Fächer – auch im stehenden Fahrzeug. Die letzten Papiere liegen im Menü unter Papiere und lassen sich als PDF speichern
+
+</details>
+
+<details>
+<summary><b>Führerschein, Kontrollen und Bußgeld</b></summary>
+
+- Dein Führerschein (ETS2) bzw. deine CDL (ATS) als Karte: Name, Geburtsdatum, Foto (Profilbild aus dem Spiel oder ein eigenes), Klassen, ADR-Bescheinigung und Code 95 – in ATS CDL-Klasse, Endorsements und DOT Medical Card. Einstellen in der Einführung oder unter Papiere › Führerschein
+- Beim Annehmen eines Auftrags zeigt eine Karte oben rechts, ob dein Führerschein reicht. Ohne gültige ADR-Bescheinigung bzw. Hazmat-Endorsement gibt der Verlader keine Gefahrgut-Papiere heraus
+- Polizei und DOT prüfen Klasse und Nachweise, an Wiegestationen in ATS CDL und Medical Card. Nachweise laufen ab – eine Woche vorher kommt eine Erinnerung, verlängert wird im Menü
+- Nach einer Kontrolle oder dem Blitzer kommt ein Bußgeldbescheid als Brief: in Deutschland nach OWiG, im Ausland mit Titel in der Landessprache, in ATS als Traffic Citation
+- Gurt mit J: Ohne Gurt kommen ab 25 km/h Warnleuchte und Gong wie im echten Auto. Die Polizei kassiert dafür
 
 </details>
 
@@ -139,11 +152,11 @@ BeyondCab erkennt von selbst, welches Spiel läuft – es gibt nichts auszuwähl
 <summary><b>Funkschlüssel, Ausrüstung und mehr</b></summary>
 
 - Funkschlüssel: ab- und aufschließen mit Blinkern und auf Wunsch kurzem Hupen, am Truck halten für die Fenster, weit weg halten zum Finden. Follow-me-home und automatisches Abschließen
-- Im Staukasten hinter der Kabine: Warnleuchten, Pylonen, Warndreieck, Unterlegkeile, Feuerlöscher und ein Campingstuhl. Rausnehmen, aufstellen, wieder einsammeln
+- Im Staukasten hinter der Kabine: Warnleuchten, Pylonen, Warndreieck, Unterlegkeile, Feuerlöscher, Erste-Hilfe-Kasten, eine Akku-Arbeitsleuchte auf Dreibein und ein Campingstuhl. Rausnehmen, aufstellen, wieder einsammeln
 - Schnellwahl-Rad (Tab halten), Bänke an Rastplätzen zum Pause machen
-- Taschenlampe in der Hand oder am Kopf, mit mehreren Modi
+- Taschenlampe in der Hand oder am Kopf, mit mehreren Modi samt SOS
 - Controller mit Xbox- oder PlayStation-Symbolen, alle Knöpfe frei belegbar
-- Einführung beim ersten Start, Einstellungen exportieren und importieren, Deutsch und Englisch
+- Einführung beim ersten Start, automatische Updates, Einstellungen exportieren und importieren, Deutsch und Englisch
 
 </details>
 
