@@ -1,5 +1,57 @@
 # Änderungen · Changelog
 
+## 1.2.1
+
+**Echte Schatten für die Ausrüstung, Suche im Menü und Lenkzeiten über das Spielende hinaus.**
+
+### Neu
+
+- Aufgestellte Ausrüstung wirft echte Sonnenschatten wie die Objekte des Spiels – jedes Stuhlbein, jede Strebe der Arbeitsleuchte, mit Schatten auf sich selbst (ETS2 und ATS)
+- Suchfeld im Menü: Begriff eingeben (z. B. „Gurt“), Treffer aus allen Seiten, ein Klick führt direkt zur Zeile
+- Lenkzeit: Fahrtenschreiber bzw. ELD werden je Profil gespeichert – die Karte bleibt nach einem Neustart gesteckt. Neu auf dem Ausdruck der Wochenwert (ETS2: 56 h Lenkzeit in 7 Tagen, ATS: 70 h Dienst in 8 Tagen), nach 45 bzw. 34 Stunden Ruhe beginnt er neu
+- Führerschein: Erwerbsdatum optional selbst eintragen (ETS2 Pkw und Lkw, ATS „CDL seit“), leer bleibt es automatisch
+- Probeton: Nach dem Verstellen einer Lautstärke ist sie einmal zu hören
+
+### Verbessert
+
+- Lautstärken einheitlich: 100 % ist die Standard-Lautstärke
+- Geburtsdatum in jeder üblichen Schreibweise (z. B. 07.07.2000 auch in ATS)
+- Einstellungen, Papiere, Ausrüstung und Fahrtenschreiber werden so gespeichert, dass ein Absturz beim Speichern nichts mehr kaputt macht
+- Verkehr: Hupen, die es im Spiel nicht gibt, werden übersprungen – Autos hupen nicht mehr stumm
+
+### Behoben
+
+- Ein- und Aussteigen mit offener Konsole oder einem anderen Fenster vorne: Die Kamera blieb hängen, man steckte in der freien Kamera fest. Jetzt wartet BeyondCab, versucht es erneut und läuft notfalls zu Fuß weiter
+- Getipptes in der Konsole zählte als Laufen und Aktionstaste
+- Zacken an Tankbeleg, Tacho-Ausdruck und den anderen Zetteln ragten über das Papier
+- ATS: beim ELD-Protokoll stand „Polizei“ statt „DOT“
+
+---
+
+**Real shadows for your equipment, search in the menu and driving times that survive a restart.**
+
+### New
+
+- Placed equipment casts real sun shadows like the game's own objects – every chair leg and every strut of the work light, including shadows on itself (ETS2 and ATS)
+- Search box in the menu: type a word (e.g. "belt"), results from all pages, one click takes you straight to the row
+- Driving time: tachograph and ELD are saved per profile – the card stays inserted after a restart. The printout now shows the weekly total (ETS2: 56 h driving in 7 days, ATS: 70 h on duty in 8 days), which starts over after 45 or 34 hours of rest
+- Driving licence: optionally enter when you got it (ETS2 car and truck, ATS "CDL since"); left empty it stays automatic
+- Preview sound: after changing a volume you hear it once
+
+### Improved
+
+- Volumes are consistent: 100 % is the default volume
+- Date of birth in any common format (e.g. 07.07.2000 in ATS too)
+- Settings, papers, equipment and tachograph are saved so that a crash while saving no longer breaks anything
+- Traffic: horns that don't exist in the game are skipped – cars no longer honk silently
+
+### Fixed
+
+- Getting in and out with the console or another window open: the camera got stuck and you were left in the free camera. BeyondCab now waits, tries again and if needed lets you keep walking
+- Typing in the console counted as walking and the action key
+- The torn edges of fuel receipts, tacho printouts and other slips stuck out past the paper
+- ATS: the ELD record said "police" instead of "DOT"
+
 ## 1.2.0
 
 **Führerschein, Bußgeldbescheide, Gurt und neue Ausrüstung** – dazu eine neue Papiermappe und Modelle, die aussehen wie die Deko des Spiels.

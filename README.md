@@ -86,7 +86,7 @@ Nothing in the game is changed: no mods in the game files, no changes to `config
 - Switch to the passenger seat or lie down on the bed in a sleeper cab. The plugin finds out by itself whether your truck has a bed
 - On the bed: hold the key to sleep (using the game's sleep dialog)
 - On the passenger seat and on the bed it sounds like the cab, not like outside
-- Driving time (optional): in ETS2 you insert your driver card into the tachograph at the start of your shift, in ATS you log in to the ELD. Driving and rest time show at the top right, and the device prints the daily printout or ELD record
+- Driving time (optional): in ETS2 you insert your driver card into the tachograph at the start of your shift, in ATS you log in to the ELD. Driving and rest time show at the top right, and the device prints the daily printout or ELD record – with the weekly total. Everything is saved per profile
 
 </details>
 
@@ -152,7 +152,7 @@ BeyondCab notices by itself which game is running – there's nothing to choose.
 <summary><b>Remote key, equipment and more</b></summary>
 
 - Remote key: lock and unlock with indicators and an optional short honk, hold at the truck for the windows, hold far away to find it. Follow-me-home and automatic locking
-- In the storage box behind the cab: warning lights, cones, warning triangle, chocks, fire extinguisher, first aid kit, a battery work light on a tripod and a camping chair. Take them out, place them, pick them up again
+- In the storage box behind the cab: warning lights, cones, warning triangle, chocks, fire extinguisher, first aid kit, a battery work light on a tripod and a camping chair. Take them out, place them, pick them up again – they cast real shadows like the game's own objects
 - Quick menu (hold Tab), benches at rest areas to take a break
 - Flashlight in your hand or on your head, with several modes including SOS
 - Controller with Xbox or PlayStation symbols, all buttons can be remapped
@@ -175,7 +175,7 @@ BeyondCab notices by itself which game is running – there's nothing to choose.
 | P | Y | paper folder; 1–4 (controller: D-pad) opens a sheet |
 | Tab (hold) | D-pad up | quick menu |
 | right mouse button | LT | zoom, magnifier on papers |
-| Ctrl + F7 | – | menu |
+| Ctrl + F7 | – | menu (with search box) |
 | Ctrl + Alt + Z | Back (hold) | back to the truck |
 
 All keys and buttons can be changed in the menu under **Keyboard** and **Controller**.

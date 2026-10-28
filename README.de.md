@@ -86,7 +86,7 @@ Am Spiel selbst wird nichts verändert: keine Mods in den Spieldateien, keine Ä
 - Auf den Beifahrersitz wechseln oder dich in einer Schlafkabine aufs Bett legen. Ob dein Truck ein Bett hat, erkennt das Plugin selbst
 - Auf dem Bett: Taste halten zum Schlafen (über den Schlaf-Dialog des Spiels)
 - Am Beifahrersitz und auf dem Bett klingt es wie in der Kabine, nicht wie draußen
-- Lenkzeit (optional): In ETS2 steckst du zu Schichtbeginn die Fahrerkarte in den Fahrtenschreiber, in ATS meldest du dich am ELD an. Oben rechts siehst du Lenk- und Ruhezeit, am Gerät druckst du den Tagesausdruck bzw. das ELD-Protokoll
+- Lenkzeit (optional): In ETS2 steckst du zu Schichtbeginn die Fahrerkarte in den Fahrtenschreiber, in ATS meldest du dich am ELD an. Oben rechts siehst du Lenk- und Ruhezeit, am Gerät druckst du den Tagesausdruck bzw. das ELD-Protokoll – mit Wochenwert. Alles bleibt je Profil gespeichert
 
 </details>
 
@@ -152,7 +152,7 @@ BeyondCab erkennt von selbst, welches Spiel läuft – es gibt nichts auszuwähl
 <summary><b>Funkschlüssel, Ausrüstung und mehr</b></summary>
 
 - Funkschlüssel: ab- und aufschließen mit Blinkern und auf Wunsch kurzem Hupen, am Truck halten für die Fenster, weit weg halten zum Finden. Follow-me-home und automatisches Abschließen
-- Im Staukasten hinter der Kabine: Warnleuchten, Pylonen, Warndreieck, Unterlegkeile, Feuerlöscher, Erste-Hilfe-Kasten, eine Akku-Arbeitsleuchte auf Dreibein und ein Campingstuhl. Rausnehmen, aufstellen, wieder einsammeln
+- Im Staukasten hinter der Kabine: Warnleuchten, Pylonen, Warndreieck, Unterlegkeile, Feuerlöscher, Erste-Hilfe-Kasten, eine Akku-Arbeitsleuchte auf Dreibein und ein Campingstuhl. Rausnehmen, aufstellen, wieder einsammeln – sie werfen echte Schatten wie die Objekte des Spiels
 - Schnellwahl-Rad (Tab halten), Bänke an Rastplätzen zum Pause machen
 - Taschenlampe in der Hand oder am Kopf, mit mehreren Modi samt SOS
 - Controller mit Xbox- oder PlayStation-Symbolen, alle Knöpfe frei belegbar
@@ -175,7 +175,7 @@ BeyondCab erkennt von selbst, welches Spiel läuft – es gibt nichts auszuwähl
 | P | Y | Papiermappe; darin öffnen 1–4 (Controller: Steuerkreuz) ein Blatt |
 | Tab (halten) | Steuerkreuz hoch | Schnellwahl |
 | rechte Maustaste | LT | Zoom, auf Papieren die Lupe |
-| Strg + F7 | – | Menü |
+| Strg + F7 | – | Menü (mit Suchfeld) |
 | Strg + Alt + Z | Back (halten) | zurück zum Truck |
 
 Alle Tasten und Knöpfe lassen sich im Menü unter **Tastatur** bzw. **Controller** umlegen.
