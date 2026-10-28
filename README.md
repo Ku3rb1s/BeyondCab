@@ -7,7 +7,7 @@
 **Step out of the cab.**<br>
 Get out, walk around your truck, couple by hand, sign your papers, refuel and take a break – on foot and in first person in **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-[![Version](https://img.shields.io/github/v/release/Ku3rb1s/BeyondCab?label=Version&color=ff9500&cacheSeconds=3600)](../../releases/latest)
+[![Version](https://img.shields.io/github/v/release/Ku3rb1s/BeyondCab?label=Version&color=ff9500&cacheSeconds=1800)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 and ATS](https://img.shields.io/badge/Games-ETS2%20%7C%20ATS-34c759)
 ![Free](https://img.shields.io/badge/free-no%20account-ff9f0a)
