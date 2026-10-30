@@ -1,5 +1,33 @@
 # Änderungen · Changelog
 
+## 1.2.2
+
+**Angepasst an ETS2 und ATS 1.62** – 1.61 wird weiter unterstützt.
+
+### Behoben
+
+- Spielversion 1.62: Ankoppeln und Abkoppeln, Stützen kurbeln, Spiralkabel, Anhänger-Licht, aufgestellte Ausrüstung, Lager-Mitarbeiter, Verkehr und das Ausblenden der Ringe am Anhänger funktionieren wieder – SCS hat Fahrzeug-Daten und die Modell-Funktionen umgebaut
+- Bett: wurde nicht angeboten, wenn man nach dem Laden im Truck blieb, ohne vorher auszusteigen
+- Controller im Truck: der Aktionsknopf ging nur zum Aussteigen – jetzt auch für Fahrerkarte, Beifahrersitz und Bett (und das Spiel sieht ihn dann nicht, z. B. als Warnblinker)
+
+### Hinweis
+
+- In 1.62 hat SCS die Tankstellen-Anzeige umgebaut: der Tankdeckel richtet sich dort wieder nach der Entfernung zur Säule
+
+---
+
+**Updated for ETS2 and ATS 1.62** – 1.61 is still supported.
+
+### Fixed
+
+- Game version 1.62: coupling and uncoupling, cranking the landing gear, coiled cables, trailer lights, placed equipment, the warehouse worker, traffic and hiding the rings at the trailer work again – SCS changed vehicle data and the model functions
+- Bunk: wasn't offered if you stayed in the truck after loading without getting out first
+- Controller in the truck: the action button only worked for getting out – now also for the driver card, passenger seat and bunk (and the game no longer sees it, e.g. as the hazard lights)
+
+### Note
+
+- In 1.62 SCS rebuilt the gas station display: the fuel cap there follows the distance to the pump again
+
 ## 1.2.1
 
 **Echte Schatten für die Ausrüstung, Suche im Menü und Lenkzeiten über das Spielende hinaus.**

@@ -60,7 +60,7 @@ Nothing in the game is changed: no mods in the game files, no changes to `config
 ## Requirements
 
 - Windows 10 or 11 (64-bit)
-- Euro Truck Simulator 2 **1.61** and/or American Truck Simulator **1.61** on Steam, single player
+- Euro Truck Simulator 2 and/or American Truck Simulator **1.62** on Steam, single player – 1.61 is still supported
 - After a game update some features may stop working until a new version comes out. The plugin checks at start-up whether everything still fits and only switches off the affected part
 
 ---

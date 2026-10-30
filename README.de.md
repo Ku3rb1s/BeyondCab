@@ -60,7 +60,7 @@ Am Spiel selbst wird nichts verändert: keine Mods in den Spieldateien, keine Ä
 ## Voraussetzungen
 
 - Windows 10 oder 11 (64 Bit)
-- Euro Truck Simulator 2 **1.61** und/oder American Truck Simulator **1.61** über Steam, Einzelspieler
+- Euro Truck Simulator 2 und/oder American Truck Simulator **1.62** über Steam, Einzelspieler – 1.61 wird weiter unterstützt
 - Nach einem Spiel-Update kann es sein, dass einzelne Funktionen ausfallen, bis eine neue Version erscheint. Das Plugin prüft beim Start, ob die Stellen im Spiel noch passen, und schaltet sonst nur den betroffenen Teil ab
 
 ---
