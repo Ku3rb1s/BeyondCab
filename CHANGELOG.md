@@ -1,5 +1,51 @@
 # Änderungen · Changelog
 
+## 1.2.3
+
+### Neu
+
+- Update-Schutz: BeyondCab liest die Fahrzeug-Daten von Truck und Anhänger direkt aus dem Spiel ab – verschieben sie sich bei einem Spiel-Update, passt es ohne neue Version. Was nicht mehr passt, schaltet sich gezielt ab, statt falsch zu laufen
+- Menü › Allgemein › Spielversion: welche Teile in deiner Spielversion laufen, eingeschränkt oder aus sind – und einmal ein Hinweis nach einem Spiel-Update, wenn etwas aus ist
+- Tankbeleg mit dem Preis, den das Spiel an der Säule zeigt, und der Nummer der Säule, an der du stehst
+- Einstellungen aufgeräumt: Wegweiser jetzt unter Anzeige, Checkliste beim Kuppeln unter Anhänger
+- Klänge aufeinander abgestimmt: Tankdeckel hörbar, Staukasten leiser, Tür innen wie außen, Schritte auf jedem Untergrund gleich laut
+- Jeder Klang einzeln einstellbar (Geräusche): Anschnallen, Funkschlüssel, Staukasten und Ausrüstung, Taschenlampe, Kupplungs-Riegel, Papiere – 0 % schaltet ihn aus
+
+### Behoben
+
+- Tanken in 1.62: Säule wieder erkannt, Tankdeckel und Tanken wieder angeboten, das Fenster des Spiels mit Dieselpreis und Kontostand wird beim Laufen ausgeblendet
+- Kartenterminal saß an der Dachstütze oder frei auf dem Platz statt an der Zapfsäule
+- Plombe saß bei langen Aufliegern im Aufbau statt an den Türen – das Heck kommt jetzt aus der Messung und, wo die nicht geht, aus der Länge des Aufliegers in den Spieldaten
+- Plombe musste nach jedem Neustart erneut geprüft werden
+- Vier Warnleuchten und die Arbeitsleuchte: das fünfte Licht blieb dunkel
+- Mit etwas anderem in der Hand ließ sich ein Gegenstand nicht aufnehmen, ohne Hinweis warum – jetzt „Hände frei machen“
+- ATS: Tank-Hinweise zeigten Liter statt Gallonen
+- Führerschein: Datum wie der 31.02. wurde angenommen
+- „Auf Standard“ setzte nicht alles der Seite zurück (Anschnallen, Papier-Größen, Gurt-Lautstärke, Fahrername)
+
+---
+
+### New
+
+- Update protection: BeyondCab reads the truck and trailer data straight from the game – if a game update moves it, it keeps working without a new version. Anything that no longer fits is switched off on its own instead of misbehaving
+- Menu › General › Game version: which parts work, are limited or are off in your game version – plus a one-time note after a game update if something is off
+- Fuel receipt with the price the game shows at the pump and the number of the pump you're at
+- Settings tidied up: guide arrows now under Display, coupling checklist under Trailer
+- Sounds balanced against each other: fuel cap audible, storage box quieter, door the same inside and outside, footsteps equally loud on every surface
+- Every sound has its own volume (Sounds): seatbelt, remote key, storage box and equipment, flashlight, coupling catch, papers – 0 % turns it off
+
+### Fixed
+
+- Refuelling in 1.62: the pump is recognised again, fuel cap and refuelling are offered again, the game's window with diesel price and balance is hidden while walking
+- The card terminal sat at the canopy pillar or out on the forecourt instead of at the pump
+- The seal sat inside the body of long trailers instead of at the doors – the rear now comes from measuring and, where that fails, from the trailer length in the game data
+- The seal had to be checked again after every restart
+- Four warning beacons and the work light: the fifth light stayed dark
+- With something else in your hands an item couldn't be picked up, with no hint why – now "Free your hands"
+- ATS: refuelling hints showed litres instead of gallons
+- Licence: dates like 31 February were accepted
+- "Default" didn't reset everything on the page (seatbelt, paper sizes, seatbelt chime volume, driver name)
+
 ## 1.2.2
 
 **Angepasst an ETS2 und ATS 1.62** – 1.61 wird weiter unterstützt.
