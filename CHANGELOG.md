@@ -1,5 +1,67 @@
 # Änderungen · Changelog
 
+## 1.2.4
+
+### Neu
+
+- Erste Schritte: beim ersten Aussteigen, zu Fuß, am Truck, beim Kuppeln, Tanken und bei den Papieren zeigt eine Karte rechts, welche Tasten du brauchst – jede einmal, genau dann, wenn es so weit ist. Abschaltbar und von vorn unter Menü › Allgemein › Hilfe
+- Prüfung beim Start: nach einem Spiel-Update sagt BeyondCab einmal, ob alles passt. Der Prüfbericht (BeyondCab\pruefbericht.txt, im Menü unter Spielversion › Öffnen) listet jede geprüfte Spiel-Funktion – hilfreich für eine Fehlermeldung
+- Pausen-Tagebuch: in der Papiermappe liegt die Wochenübersicht des Fahrtenschreibers – je Tag ein 24-Stunden-Streifen mit Lenken, Arbeit, Pause und Ruhe, dazu die Summen, die Woche gegen 56 h und was zu lang oder zu kurz war (ATS: 8 Tage, Hours of Service)
+
+### Behoben
+
+- Fahrtenschreiber: Laufen zählte immer als Arbeit (auch die Pause auf der Bank), wurde aber trotzdem als Pause angerechnet. Jetzt ist nur Kuppeln, Tanken und Unterschreiben Arbeit – und Arbeit unterbricht in der EU die 45-Minuten-Pause (USA: zählt für die 30-Minuten-Pause mit)
+- Physik ging nach einem Spielstand- oder Profilwechsel bis zum Neustart des Spiels ganz aus (kein Boden, keine Kollision) – jetzt wird sie neu gesucht
+- Tasten auf Pfeilen, rechter Strg, Alt Gr usw.: die Aktionstaste ging trotz Hinweis auch ans Spiel, durchgelassene Spieltasten wurden geschluckt
+- Englische Tastatur: Hinweise zeigten „Z“ statt „Y“ (Tastennamen jetzt nach der eingestellten Belegung)
+- Menü › Tastatur: „Aktionstaste ist im Spiel belegt“ prüfte auf QWERTZ die falsche Taste (Y/Z) und Ziffern/F-Tasten gar nicht
+- Controller: das Ausblenden einzelner Knöpfe (z. B. Aussteigen) wirkte nicht, wenn das Spiel die erweiterte XInput-Abfrage nutzt
+- Abfahrtskontrolle ohne SCS-Eingabegerät: das Standlicht blieb nach der Lichtprüfung an
+- Ohne „Verkehr hält an“ lief man durch fahrende Autos, wenn die Verkehrslisten des Spiels nicht gefunden wurden
+- ATS-Kontrolle: Pylonen und Warnleuchten zählten als Warndreiecke – verlangt sind drei Dreiecke
+- ATS: Tankbelege standen in Menü › Papiere als „l · €“, Bußgelder auf Frachtpapieren in €
+- „Auf Standard“ unter Allgemein setzte Updates und Erste Schritte nicht zurück
+- Fahrtenschreiber: beim Beenden des Spiels oder Wechsel des Profils fehlten bis zu 10 Spielminuten
+- Profil kurz nicht lesbar: Belege, Aufgestelltes und Fahrtenschreiber wechselten auf ein leeres Profil
+- Nach einer Pause ruckelte die Maus beim Laufen (die Eingabesperre wurde jedes Bild neu gesetzt)
+- Wochenübersicht: der Blick drehte beim Lesen mit, und sie blieb offen, wenn die Mappe weg war
+- Aktionsrad: „Papiere“ fehlte, obwohl Ausdrucke, Bescheide oder Führerschein dabei waren
+- „Zahlung abgebrochen“ kam auch nach erfolgreicher Kartenzahlung
+- „Spieltasten durchlassen“: die Tasten für Papiere und Gurt gingen zusätzlich ans Spiel
+- Englisch: Ergebnisse der Abfahrtskontrolle, Tanken, Pause und Road-Trip-Hinweise standen auf Deutsch
+- Seltener Absturz beim Auslesen von Spieldaten am Rand eines Speicherbereichs
+
+---
+
+### New
+
+- First steps: the first time you get out, walk, stand at the truck, couple, refuel or handle papers, a card on the right shows the keys you need – each once, right when you need it. Turn it off or start over under menu › General › Help
+- Start-up check: after a game update BeyondCab tells you once whether everything works. The check report (BeyondCab\pruefbericht.txt, menu › Game version › Open) lists every game function it checked – handy for a bug report
+- Break diary: the folder now holds the tachograph weekly summary – a 24-hour strip per day with driving, work, breaks and rest, the totals, the week against 56 h and anything too long or too short (ATS: 8 days, Hours of Service)
+
+### Fixed
+
+- Tachograph: walking always counted as work (even a break on a bench) and was still credited as a break. Now only coupling, refuelling and signing are work – and in the EU work interrupts the 45-minute break (USA: it counts towards the 30-minute break)
+- After loading another save or profile, physics stayed off until the game restarted (no ground, no collision) – it is now searched again
+- Keys on arrows, right Ctrl, AltGr etc.: the action key also reached the game despite a hint, passed-through game keys were swallowed
+- English keyboards: hints showed "Z" instead of "Y" (key names now follow the active layout)
+- Menu › Keyboard: "Action key is bound in the game" checked the wrong key on QWERTZ (Y/Z) and never checked digits or F keys
+- Controller: hiding single buttons (e.g. getting out) did not work when the game uses the extended XInput query
+- Walk-around check without the SCS input device: the parking lights stayed on after the light check
+- With "Traffic stops" off you walked through moving cars when the game's traffic lists were not found
+- ATS inspection: cones and beacon lights counted as warning triangles – three triangles are required
+- ATS: receipts showed as "l · €" in menu › Papers, fines on shipping papers in €
+- "Default" under General did not reset updates and first steps
+- Tachograph: up to 10 game minutes were lost when quitting the game or switching profiles
+- Profile briefly unreadable: receipts, placed equipment and the tachograph switched to an empty profile
+- After a break the mouse stuttered while walking (the input lock was set again every frame)
+- Weekly summary: the view turned while reading, and it stayed open when the folder was gone
+- Action wheel: "Papers" was missing although printouts, notices or the licence were on you
+- "Payment cancelled" also appeared after a successful card payment
+- "Pass game keys": the keys for papers and seat belt also reached the game
+- English: walk-around check results, refuelling, break and Road Trip hints were in German
+- Rare crash when reading game data at the edge of a memory region
+
 ## 1.2.3
 
 ### Neu

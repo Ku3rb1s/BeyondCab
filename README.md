@@ -7,7 +7,7 @@
 **Step out of the cab.**<br>
 Get out, walk around your truck, couple by hand, sign your papers, refuel and take a break – on foot and in first person in **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.2.3-ff9500)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.2.4-ff9500)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 and ATS](https://img.shields.io/badge/Games-ETS2%20%7C%20ATS-34c759)
 ![Free](https://img.shields.io/badge/free-no%20account-ff9f0a)
@@ -61,7 +61,7 @@ Nothing in the game is changed: no mods in the game files, no changes to `config
 
 - Windows 10 or 11 (64-bit)
 - Euro Truck Simulator 2 and/or American Truck Simulator **1.62** on Steam, single player – 1.61 is still supported
-- After a game update some features may stop working until a new version comes out. The plugin checks at start-up whether everything still fits and only switches off the affected part
+- After a game update some features may stop working until a new version comes out. The plugin checks at start-up whether everything still fits and only switches off the affected part. After a game update it tells you once how things stand; the check report (`BeyondCab\pruefbericht.txt`, menu › Game version › Open) lists every spot it checked – handy for bug reports
 
 ---
 
@@ -86,7 +86,7 @@ Nothing in the game is changed: no mods in the game files, no changes to `config
 - Switch to the passenger seat or lie down on the bed in a sleeper cab. The plugin finds out by itself whether your truck has a bed
 - On the bed: hold the key to sleep (using the game's sleep dialog)
 - On the passenger seat and on the bed it sounds like the cab, not like outside
-- Driving time (optional): in ETS2 you insert your driver card into the tachograph at the start of your shift, in ATS you log in to the ELD. Driving and rest time show at the top right, and the device prints the daily printout or ELD record – with the weekly total. Everything is saved per profile
+- Driving time (optional): in ETS2 you insert your driver card into the tachograph at the start of your shift, in ATS you log in to the ELD. Driving and rest time show at the top right, and the device prints the daily printout or ELD record – with the weekly total. The paper folder holds the weekly summary: a 24-hour strip per day with driving, work, breaks and rest, the totals and anything too long or too short. Everything is saved per profile
 
 </details>
 
@@ -156,7 +156,8 @@ BeyondCab notices by itself which game is running – there's nothing to choose.
 - Quick menu (hold Tab), benches at rest areas to take a break
 - Flashlight in your hand or on your head, with several modes including SOS
 - Controller with Xbox or PlayStation symbols, all buttons can be remapped
-- An introduction on first start, automatic updates, export and import of settings, German and English
+- An introduction on first start and "First steps": the first time you get out, couple, refuel or handle papers, a card on the right shows the keys you need – each once, right when you need it
+- Automatic updates, export and import of settings, German and English
 
 </details>
 

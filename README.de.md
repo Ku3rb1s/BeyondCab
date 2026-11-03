@@ -7,7 +7,7 @@
 **Raus aus der Kabine.**<br>
 Aussteigen, um den Truck gehen, von Hand kuppeln, Papiere unterschreiben, tanken und Pause machen – zu Fuß und aus der Ich-Sicht in **Euro Truck Simulator 2** und **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.2.3-ff9500)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.2.4-ff9500)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 und ATS](https://img.shields.io/badge/Spiele-ETS2%20%7C%20ATS-34c759)
 ![Kostenlos](https://img.shields.io/badge/kostenlos-ohne%20Konto-ff9f0a)
@@ -61,7 +61,7 @@ Am Spiel selbst wird nichts verändert: keine Mods in den Spieldateien, keine Ä
 
 - Windows 10 oder 11 (64 Bit)
 - Euro Truck Simulator 2 und/oder American Truck Simulator **1.62** über Steam, Einzelspieler – 1.61 wird weiter unterstützt
-- Nach einem Spiel-Update kann es sein, dass einzelne Funktionen ausfallen, bis eine neue Version erscheint. Das Plugin prüft beim Start, ob die Stellen im Spiel noch passen, und schaltet sonst nur den betroffenen Teil ab
+- Nach einem Spiel-Update kann es sein, dass einzelne Funktionen ausfallen, bis eine neue Version erscheint. Das Plugin prüft beim Start, ob die Stellen im Spiel noch passen, und schaltet sonst nur den betroffenen Teil ab. Nach einem Spiel-Update sagt es einmal, wie es aussieht; der Prüfbericht (`BeyondCab\pruefbericht.txt`, Menü › Spielversion › Öffnen) listet jede geprüfte Stelle – hilfreich für Fehlermeldungen
 
 ---
 
@@ -86,7 +86,7 @@ Am Spiel selbst wird nichts verändert: keine Mods in den Spieldateien, keine Ä
 - Auf den Beifahrersitz wechseln oder dich in einer Schlafkabine aufs Bett legen. Ob dein Truck ein Bett hat, erkennt das Plugin selbst
 - Auf dem Bett: Taste halten zum Schlafen (über den Schlaf-Dialog des Spiels)
 - Am Beifahrersitz und auf dem Bett klingt es wie in der Kabine, nicht wie draußen
-- Lenkzeit (optional): In ETS2 steckst du zu Schichtbeginn die Fahrerkarte in den Fahrtenschreiber, in ATS meldest du dich am ELD an. Oben rechts siehst du Lenk- und Ruhezeit, am Gerät druckst du den Tagesausdruck bzw. das ELD-Protokoll – mit Wochenwert. Alles bleibt je Profil gespeichert
+- Lenkzeit (optional): In ETS2 steckst du zu Schichtbeginn die Fahrerkarte in den Fahrtenschreiber, in ATS meldest du dich am ELD an. Oben rechts siehst du Lenk- und Ruhezeit, am Gerät druckst du den Tagesausdruck bzw. das ELD-Protokoll – mit Wochenwert. In der Papiermappe liegt die Wochenübersicht: je Tag ein 24-Stunden-Streifen mit Lenken, Arbeit, Pause und Ruhe, dazu die Summen und was zu lang oder zu kurz war. Alles bleibt je Profil gespeichert
 
 </details>
 
@@ -156,7 +156,8 @@ BeyondCab erkennt von selbst, welches Spiel läuft – es gibt nichts auszuwähl
 - Schnellwahl-Rad (Tab halten), Bänke an Rastplätzen zum Pause machen
 - Taschenlampe in der Hand oder am Kopf, mit mehreren Modi samt SOS
 - Controller mit Xbox- oder PlayStation-Symbolen, alle Knöpfe frei belegbar
-- Einführung beim ersten Start, automatische Updates, Einstellungen exportieren und importieren, Deutsch und Englisch
+- Einführung beim ersten Start und „Erste Schritte“: Beim ersten Aussteigen, Kuppeln, Tanken oder bei den Papieren zeigt eine Karte rechts die passenden Tasten – je einmal, genau dann, wenn du sie brauchst
+- Automatische Updates, Einstellungen exportieren und importieren, Deutsch und Englisch
 
 </details>
 
