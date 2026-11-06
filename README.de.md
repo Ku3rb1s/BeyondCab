@@ -7,7 +7,7 @@
 **Raus aus der Kabine.**<br>
 Aussteigen, um den Truck gehen, von Hand kuppeln, Papiere unterschreiben, tanken und Pause machen – zu Fuß und aus der Ich-Sicht in **Euro Truck Simulator 2** und **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.2.4-ff9500)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.2.5-ff9500)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 und ATS](https://img.shields.io/badge/Spiele-ETS2%20%7C%20ATS-34c759)
 ![Kostenlos](https://img.shields.io/badge/kostenlos-ohne%20Konto-ff9f0a)
@@ -73,7 +73,7 @@ Am Spiel selbst wird nichts verändert: keine Mods in den Spieldateien, keine Ä
 - Aussteigen mit der Aktionstaste, wenn die Feststellbremse gezogen ist. Die Tür geht auf, du stehst neben dem Truck – auch auf der Beifahrerseite
 - Gehen, Rennen, Springen, Ducken. Bergauf langsamer, leichtes Kopfwippen, Körpergröße einstellbar
 - Der Boden kommt aus der Physik des Spiels: Gehwege, Rampen, Treppen, Laderampen. Leitplanken, Zäune und Fahrzeuge halten dich auf
-- Schritte klingen je nach Untergrund (Asphalt, Kies, Gras, Metall, Schnee, Holz)
+- Schritte klingen je nach Untergrund (Asphalt, Kies, Gras, Metall, Schnee, Holz), bei Regen und auf nassem Boden nass
 - Der KI-Verkehr bremst vor dir und hupt, wenn du zu lange auf der Straße stehst
 - Tore und Schranken an Firmengeländen gehen auf, wenn du davorstehst (ETS2)
 - Pfeile oben im Bild zeigen auf Wunsch, wo Truck, Auflieger und Lager-Mitarbeiter stehen
@@ -112,6 +112,7 @@ Am Spiel selbst wird nichts verändert: keine Mods in den Spieldateien, keine Ä
 - Gefahrgut: in ETS2 nach ADR mit Schriftlichen Weisungen, in ATS nach 49 CFR mit HAZMAT-Kennzeichnung und ERG-Leitfaden
 - Polizei- bzw. DOT-Kontrollen: Hält dich die Polizei an, prüft sie Papiere, Fahrerkarte bzw. ELD und bei Gefahrgut die Ausrüstung. Was fehlt, kostet ein Bußgeld
 - Kühlauflieger: Am Kühlaggregat druckst du das Temperaturprotokoll aus
+- Fährhafen-Check (ETS2, abschaltbar): Vor der Fähre nach Großbritannien und von Griechenland und Albanien nach Italien prüfst du den Auflieger auf blinde Passagiere. BeyondCab erinnert dich, wenn die Route über den Hafen führt oder du dort stehst. Wer es auslässt, riskiert bei der Ankunft eine Strafe
 - Alles steckt in der Papiermappe (P), sortiert in Fächer – auch im stehenden Fahrzeug. Die letzten Papiere liegen im Menü unter Papiere und lassen sich als PDF speichern
 
 </details>

@@ -7,7 +7,7 @@
 **Step out of the cab.**<br>
 Get out, walk around your truck, couple by hand, sign your papers, refuel and take a break – on foot and in first person in **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.2.4-ff9500)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.2.5-ff9500)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 and ATS](https://img.shields.io/badge/Games-ETS2%20%7C%20ATS-34c759)
 ![Free](https://img.shields.io/badge/free-no%20account-ff9f0a)
@@ -73,7 +73,7 @@ Nothing in the game is changed: no mods in the game files, no changes to `config
 - Get out with the action key once the parking brake is on. The door opens and you're standing next to the truck – on the passenger side too
 - Walk, run, jump, crouch. Slower uphill, slight head bob, adjustable body height
 - The ground comes from the game's physics: pavements, ramps, stairs, loading docks. Crash barriers, fences and vehicles stop you
-- Footsteps sound different on asphalt, gravel, grass, metal, snow and wood
+- Footsteps sound different on asphalt, gravel, grass, metal, snow and wood, and wet in the rain and on wet ground
 - AI traffic brakes for you and honks if you stand on the road too long
 - Gates and barriers at company yards open when you stand in front of them (ETS2)
 - Optional arrows at the top of the screen show where your truck, trailer and the warehouse worker are
@@ -112,6 +112,7 @@ Nothing in the game is changed: no mods in the game files, no changes to `config
 - Dangerous goods: in ETS2 per ADR with instructions in writing, in ATS per 49 CFR with HAZMAT marking and the ERG guide
 - Police or DOT inspections: when the police stop you, they check your papers, driver card or ELD and, for dangerous goods, your equipment. Anything missing costs a fine
 - Refrigerated trailers: print the temperature record at the reefer unit
+- Ferry port check (ETS2, optional): before the ferry to Britain, and from Greece and Albania to Italy, you check the trailer for stowaways. BeyondCab reminds you when your route uses the port or you stand there. Skip it and you risk a penalty on arrival
 - Everything is in the paper folder (P), sorted into sections – also while the truck is standing. Your latest papers are kept in the menu under Papers and can be saved as PDF
 
 </details>

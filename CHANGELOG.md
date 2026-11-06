@@ -1,5 +1,86 @@
 # Änderungen · Changelog
 
+## 1.2.5
+
+### Neu
+
+- Fahrtenschreiber: 90 Stunden Lenkzeit in zwei Wochen werden geprüft. Bleibt von den 90 h weniger als 56 h übrig, sinkt die Wochengrenze entsprechend (abschaltbar unter Lenkzeit)
+- Fahren ohne Karte bzw. ohne ELD-Anmeldung wird jetzt mitgeschrieben und steht auf Ausdruck und Wochenübersicht
+- Fährhafen-Check (ETS2, abschaltbar): Führt die Navi-Route über einen Hafen nach Großbritannien oder von Griechenland und Albanien nach Italien, oder stehst du dort, erinnert BeyondCab daran, den Auflieger auf blinde Passagiere zu prüfen – vier Punkte im Rundgang. Wer es auslässt, riskiert bei der Ankunft eine Strafe
+- Frachtbrief: Der Empfänger vermerkt Verspätungen, und Schäden je nach Ausmaß (leichte Schäden, Vorbehalt, Schadensmeldung)
+- Nasse Schritte: Bei Regen und nassem Boden mischen sich echte Wasser-Aufnahmen unter die Schritte, je nach Nässe im Spiel mehr oder weniger, ab und zu mit Pfütze (abschaltbar, Lautstärke einstellbar unter Klänge)
+
+### Geändert
+
+- Ruhezeit, Warnung, Anzeige, Ausdruck, Wochenübersicht und Kontrolle rechnen jetzt alle nach dem Fahrtenschreiber. Vorher kam die Ruhezeit aus dem Müdigkeits-Zähler des Spiels und konnte der Wochenübersicht widersprechen
+- ETS2: Die 56 h gelten wie im Gesetz je Kalenderwoche (Montag bis Sonntag). Gezählt wird je Schicht statt je Kalendertag, auch über Mitternacht. Geteilte Ruhe (3 + 9 h) zählt als volle Ruhe
+- Menü: Seiten neu gegliedert (Bewegung und Blick, Kuppeln und Kontrollen, Auftrag und deine Angaben, Lenkzeit, Lautstärken nach Ort), und es ist mehr auf einmal sichtbar
+- Der dritte 10-h-Tag einer Woche und die vierte verkürzte Ruhe zwischen zwei Wochenruhen gelten als Verstoß
+- Kontrolle: Es kostet nur noch, wer ohne Karte gefahren ist – nicht schon, wer ohne Karte steht. Zu lange Lenkzeit und zu kurze Ruhe seit der letzten Kontrolle werden geahndet
+
+### Behoben
+
+- Prüfbericht und Log zeigten Adressen als „FEHLT“, die in der laufenden Spielversion durch eine andere ersetzt sind
+- Fahrtenschreiber: Auf Fähre und Zug blieb die Fahrerkarte nicht gesteckt, danach drohte ein Bußgeld wegen Fahrens ohne Karte
+- Fahrtenschreiber: Nach zu kurzer Ruhe zeigte die Anzeige wieder die volle Restzeit. Lenkzeit und Dienstfenster laufen jetzt weiter, bis eine gültige Ruhe kommt, und die Kontrolle berechnet das nicht doppelt
+- Doppel- und Dreifachzüge: Das Heck kommt jetzt aus den Spieldaten statt aus einer Schätzung. ATS-Dreifachzüge mit Dollys werden bis zum letzten Anhänger erkannt, vorher lagen Plombe, Ladungs- und Lichtkontrolle am mittleren
+- Tieflader: Das Heck stimmt jetzt auch ohne Messung
+- Motorwagen mit Anhänger (nur Mods): Es kuppelt das Spiel, statt nicht vorhandene Stützen zu verlangen
+- Fahrtenschreiber: Im Hauptmenü stand beim Spielstart oben die Ruhezeit-Warnung, obwohl noch gar kein Profil geladen war
+- Frachtpapiere: An Firmen weit außerhalb der Stadt kam kein Mitarbeiter mit den Papieren
+- Doppelzüge: Mitarbeiter und Empfänger standen manchmal im zweiten oder dritten Anhänger
+- Gefahrgut: Ethanol, Lösungsmittel und Altbatterien fehlten in der Liste
+- Frachtbrief: Maschinen, Tank- und Schüttgut standen als „Euro-Paletten“ da. Jetzt lose, Stück, Container oder Tiere je nach Aufbau
+- Palettentausch: Container auf Pritsche tauschten keine Paletten mehr
+- Frachtbrief: Das Kennzeichen des Aufliegers fehlte, wenn er erst nach dem Unterschreiben gekuppelt wurde
+- Doppelzüge: Plombe und Rückleuchten liegen jetzt am letzten Anhänger
+- ATS: Kühlgerät, Temperatur-Ausdruck in °F, Wiegeschein in lb
+- Abfahrtskontrolle: Der Balken läuft nach dem Loslassen wieder von vorn, die Rückleuchten gehen beim zweiten Anlauf wieder an
+- Fährhafen-Check: Die Prüfpunkte verteilen sich jetzt über den ganzen Auflieger
+- Kontrolle: Eine zu lange Schicht kostete doppelt (Ruhezeit überzogen und Lenkzeit überschritten)
+- Bescheide und Belege: Auf Deutsch stehen jetzt deutsche Ortsnamen (München statt Munich)
+- Bescheide: Sachbearbeitung und Beamte wechseln und passen zum Land, statt immer Frau Becker und zufälliger Namen. Anschrift und Telefon der Behörde passen zur Stadt, im Ausland mit Ortsnamen und Postfach der Landessprache. Eigene Anschrift (Straße, PLZ) lässt sich freiwillig eintragen
+
+---
+
+### New
+
+- Tachograph: 90 hours of driving in two weeks are checked. If fewer than 56 h remain of the 90, the weekly limit drops accordingly (can be turned off under Driving time)
+- Driving without a card or ELD login is now recorded and shows on the printout and the weekly summary
+- Ferry port check (ETS2, optional): if your route uses a port to Britain, or from Greece and Albania to Italy, or you stand at one, BeyondCab reminds you to check the trailer for stowaways – four points on a walk-around. Skip it and you risk a penalty on arrival
+- Consignment note: the receiver notes late deliveries, and damage by extent (minor, with reservation, claim to follow)
+- Wet footsteps: in rain and on wet ground real water recordings mix into your steps, more or less depending on how wet the game says it is, with the odd puddle (can be turned off, volume under Sounds)
+
+### Changed
+
+- Rest time, warning, display, printout, weekly summary and inspections now all use the tachograph. Rest time used to come from the game's fatigue counter and could contradict the weekly summary
+- ETS2: the 56 h apply per calendar week (Monday to Sunday) as in the law. Driving is counted per shift instead of per calendar day, also across midnight. A split rest (3 + 9 h) counts as a full rest
+- Menu: pages reorganised (movement and view, coupling and checks, job and your details, driving time, volumes by place), and more fits on screen
+- The third 10-hour day of a week and the fourth reduced rest between two weekly rests count as violations
+- Inspections: only driving without a card costs money, not standing without one. Driving too long and resting too little since the last inspection are fined
+
+### Fixed
+
+- The check report and log showed addresses as "FEHLT" that another one replaces in the running game version
+- Tachograph: the driver card was pulled on ferries and trains, risking a fine for driving without it afterwards
+- Tachograph: after too short a rest the display went back to the full remaining time. Driving time and the duty window now carry on until a valid rest, and inspections don't charge for it twice
+- Doubles and triples: the rear end now comes from the game data instead of an estimate. ATS triples with dollies are recognised up to the last trailer; the seal, load and light checks used to sit at the middle one
+- Lowboys: the rear end is now right even without a measurement
+- Rigid trucks with a drawbar trailer (mods only): the game does the coupling instead of asking for landing gear that isn't there
+- Tachograph: the rest time warning showed at the top of the main menu at game start, before any profile was loaded
+- Shipping papers: at companies far outside town no worker came with the papers
+- Double trailers: workers and receivers sometimes stood inside the second or third trailer
+- Hazmat: ethanol, solvents and used batteries were missing from the list
+- Consignment note: machinery, tank and bulk goods were listed as “Euro pallets”. Now bulk, pieces, container or head depending on the trailer
+- Pallet exchange: containers on flatbeds no longer swap pallets
+- Consignment note: the trailer plate was missing if the trailer was coupled after signing
+- Double trailers: seal and tail lights are now at the last trailer
+- ATS: refrigeration unit and temperature printout in °F, scale ticket in lb
+- Walk-around check: the bar restarts after letting go, and the tail lights come on again on the second try
+- Ferry port check: the check points now cover the whole trailer
+- Inspections: an overlong shift was fined twice (rest overdue and driving time exceeded)
+- Fine notices: clerks and officers now vary and fit the country instead of always Frau Becker and random names. The authority's address and phone fit the city, abroad with local place names and PO box wording. You can optionally enter your own address (street, postcode)
+
 ## 1.2.4
 
 ### Neu
