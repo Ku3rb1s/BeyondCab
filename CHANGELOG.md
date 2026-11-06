@@ -1,5 +1,21 @@
 # Änderungen · Changelog
 
+## 1.2.6
+
+### Behoben
+
+- Leistung: Der Fahrtenschreiber speichert im Hintergrund, das konnte vorher kurz stocken
+- Kuppeln: Bei manchen Aufliegern ließ sich die Anhänger-Beleuchtung nicht prüfen. Der Punkt lag hinter dem Heck, dort kam nur „Plombe prüfen“. Die Prüfung sitzt jetzt am Heck und hat Vorrang, solange sie dran ist
+
+---
+
+### Fixed
+
+- Performance: the tachograph now saves in the background, which could cause a brief stutter before
+- Coupling: on some trailers the trailer light check could not be reached. Its point sat behind the rear, where only "Check seal" came up. It now sits at the rear and takes priority while it is due
+
+---
+
 ## 1.2.5
 
 ### Neu
