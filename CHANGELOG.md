@@ -1,5 +1,39 @@
 # Änderungen · Changelog
 
+## 1.3.0
+
+### Neu
+
+- Reisebusse (Coach-DLC für ETS2): MAN Lion's Coach, Scania Touring und Volvo 9700 werden erkannt. Nötig ist der Führerschein Klasse D, mit Anhänger DE
+- Ein- und Aussteigen an der vorderen Einstiegstür rechts. Die Türen gehen dabei auf. An der Tür kurz drücken = einsteigen, halten = Türen auf bzw. zu
+- Im Bus laufen: vom Fahrersitz aufstehen, durch den Gang bis zur letzten Reihe, über die Stufen der Vorder- oder Mitteltür hinaus und wieder hinein. Stufen und Böden stammen aus den Modellen der Busse
+- Volvo-Doppeldecker: Treppe zum Oberdeck. Im niedrigen Unterdeck bleibt die Augenhöhe unter der Decke
+- Bus: Staukasten am Gepäckraum zwischen den Achsen, Tankdeckel auf der Seite des Tanks, keine Liege
+- Einstellung „Im Bus mit der Innenansicht laufen“ (standardmäßig aus): Innenklang des Busses, das Innenmodell des Spiels ist aber nicht überall vollständig
+
+### Hinweise
+
+- Getestet ist vor allem der Scania Touring. Wenn bei MAN oder Volvo Stufen oder Höhen nicht passen, bitte als Issue melden
+- Deine eigene Türtaste des Spiels wird mitgezählt, solange du am Fahrersitz bist. Eine Belegung auf dem Controller sieht BeyondCab nicht
+
+---
+
+### New
+
+- Coaches (Coach DLC for ETS2): MAN Lion's Coach, Scania Touring and Volvo 9700 are recognised. They need a class D licence, DE with a trailer
+- Get in and out at the front entrance door on the right. The doors open for you. At the door tap = get in, hold = open or close the doors
+- Walk inside the coach: stand up from the driver's seat, walk the aisle to the last row, leave and enter by the steps of the front or middle door. Steps and floors are taken from the coach models
+- Volvo double-decker: stairs to the upper deck. On the low lower deck your eye height stays below the ceiling
+- Coach: storage box at the luggage hold between the axles, fuel cap on the tank's side, no bunk
+- Setting "Walk the bus in interior view" (off by default): the coach's cabin sound, but the game's interior model is not complete everywhere
+
+### Notes
+
+- Mostly tested with the Scania Touring. If steps or heights don't fit on the MAN or Volvo, please open an issue
+- Your own door key of the game is counted while you're in the driver's seat. A controller binding is not seen by BeyondCab
+
+---
+
 ## 1.2.6
 
 ### Behoben

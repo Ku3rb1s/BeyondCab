@@ -7,7 +7,7 @@
 **Raus aus der Kabine.**<br>
 Aussteigen, um den Truck gehen, von Hand kuppeln, Papiere unterschreiben, tanken und Pause machen – zu Fuß und aus der Ich-Sicht in **Euro Truck Simulator 2** und **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.2.6-ff9500)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.3.0-ff9500)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 und ATS](https://img.shields.io/badge/Spiele-ETS2%20%7C%20ATS-34c759)
 ![Kostenlos](https://img.shields.io/badge/kostenlos-ohne%20Konto-ff9f0a)
@@ -33,6 +33,8 @@ Aussteigen, um den Truck gehen, von Hand kuppeln, Papiere unterschreiben, tanken
 ⛽ **Tanken mit Karte** – Tankdeckel auf, Karte ins Terminal, PIN, an der Säule zählen Betrag und Liter (in ATS Gallonen und Dollar) mit, danach gibt es einen Beleg.
 
 📦 **Road Trip (ATS)** – Bei Kurieraufträgen holst du die Sendung beim Absender ab, legst sie auf den Beifahrersitz und übergibst sie am Ziel dem Empfänger – mit Lieferschein.
+
+🚌 **Reisebusse (Coach-DLC)** – Aus- und Einsteigen an der Einstiegstür, Türen per Taste, durch den Gang laufen, über die Stufen hinaus – im Volvo-Doppeldecker auch die Treppe hoch aufs Oberdeck.
 
 🔦 **Und noch mehr** – Funkschlüssel mit Fenstern und Truck-Finder, Taschenlampe, Warnleuchten und Unterlegkeile aus dem Staukasten, Bänke zum Pause machen, Schlafen in der Kabine, Controller-Unterstützung.
 

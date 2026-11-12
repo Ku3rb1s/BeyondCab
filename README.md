@@ -7,7 +7,7 @@
 **Step out of the cab.**<br>
 Get out, walk around your truck, couple by hand, sign your papers, refuel and take a break – on foot and in first person in **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.2.6-ff9500)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.3.0-ff9500)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 and ATS](https://img.shields.io/badge/Games-ETS2%20%7C%20ATS-34c759)
 ![Free](https://img.shields.io/badge/free-no%20account-ff9f0a)
@@ -33,6 +33,8 @@ English · [Deutsch](README.de.md)
 ⛽ **Pay at the pump** – Open the fuel cap, card into the terminal, PIN, watch amount and litres (gallons and dollars in ATS) count up, and get a receipt.
 
 📦 **Road Trip (ATS)** – On courier jobs you pick up the parcel from the sender, put it on the passenger seat and hand it over to the recipient at the destination – with a delivery note.
+
+🚌 **Coaches (Coach DLC)** – Get out and in at the entrance door, doors at the press of a key, walk the aisle, down the steps – and in the Volvo double-decker up the stairs to the upper deck.
 
 🔦 **And more** – Remote key with windows and truck finder, flashlight, warning lights and chocks from the storage box, benches for a break, sleeping in the cab, controller support.
 
