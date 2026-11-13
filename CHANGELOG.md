@@ -1,5 +1,39 @@
 # Änderungen · Changelog
 
+## 1.3.2
+
+### Verbessert (aus 1.3.1)
+
+- Log und Prüfbericht sind jetzt auf Englisch – so lassen sich Meldungen aus aller Welt leichter auswerten. Das Menü bleibt deutsch bzw. englisch wie eingestellt
+- Controller-Diagnose im Log: über welchen Weg das Spiel den Controller liest (XInput, DirectInput, HID), wann BeyondCab ihn sperrt (nur beim Laufen und im Menü) und eine Warnung, falls ein gedrückter Trigger oder Knopf im Truck beim Spiel nicht ankommt
+
+### Behoben
+
+- Controller über DirectInput (aus 1.3.1): Legt das Spiel ein Eingabegerät neu an, konnte BeyondCab einen Controller für eine Maus halten. Das wird jetzt alle 2 Sekunden neu geprüft, und Controller-Daten werden von der Maus-Sperre nie mehr verändert (Issue #1)
+- Tieflader und Pritschen mit Ladung: Die Prüfung der Anhänger-Beleuchtung (und Plombe/Ladungssicherung) lag mitten auf dem Deck, weil die Messung des Hecks die Ladung traf. Jetzt wird in Deckhöhe nachgemessen
+- Taschenlampe mit 3D-Modell: Die Lampe in der Hand leuchtete grell weiß, weil ihr eigenes Licht sie anstrahlte
+- Abgeben: „Vor der Abfahrt – Unterlegkeile entfernen“ erschien am Ziel und beim Abkoppeln, obwohl die Keile am Auflieger bleiben
+
+Danke an STyx2909 für das Video!
+
+---
+
+### Improved (from 1.3.1)
+
+- Log and check report are now in English, which makes reports from around the world easier to read. The menu stays German or English as set
+- Controller diagnostics in the log: how the game reads your controller (XInput, DirectInput, HID), when BeyondCab blocks it (only while walking and in the menu), and a warning if a pressed trigger or button doesn't reach the game while you're in the cab
+
+### Fixed
+
+- Controller via DirectInput (from 1.3.1): when the game re-created an input device, BeyondCab could take a controller for a mouse. This is now re-checked every 2 seconds, and controller data is never changed by the mouse block (issue #1)
+- Lowbeds and flatbeds with cargo: the trailer light check (and seal/load securing) sat in the middle of the deck because the rear measurement hit the cargo. The rear is now measured again at deck height
+- Flashlight with 3D model: the lamp in your hand glowed bright white because its own light lit it up
+- Delivery: "Before driving off – remove wheel chocks" showed up at the destination and while uncoupling, although the chocks stay at the trailer
+
+Thanks to STyx2909 for the video!
+
+---
+
 ## 1.3.1
 
 ### Verbessert
