@@ -1,5 +1,29 @@
 # Änderungen · Changelog
 
+## 1.3.1
+
+### Verbessert
+
+- Log und Prüfbericht sind jetzt auf Englisch – so lassen sich Meldungen aus aller Welt leichter auswerten. Das Menü bleibt deutsch bzw. englisch wie eingestellt
+- Controller-Diagnose im Log: über welchen Weg das Spiel den Controller liest (XInput, DirectInput, HID), wann BeyondCab ihn sperrt (nur beim Laufen und im Menü) und eine Warnung, falls ein gedrückter Trigger oder Knopf im Truck beim Spiel nicht ankommt
+
+### Behoben
+
+- Controller über DirectInput: Legt das Spiel ein Eingabegerät neu an, konnte BeyondCab einen Controller für eine Maus halten. Das wird jetzt alle 2 Sekunden neu geprüft, und Controller-Daten werden von der Maus-Sperre nie mehr verändert (Issue #1)
+
+---
+
+### Improved
+
+- Log and check report are now in English, which makes reports from around the world easier to read. The menu stays German or English as set
+- Controller diagnostics in the log: how the game reads your controller (XInput, DirectInput, HID), when BeyondCab blocks it (only while walking and in the menu), and a warning if a pressed trigger or button doesn't reach the game while you're in the cab
+
+### Fixed
+
+- Controller via DirectInput: when the game re-created an input device, BeyondCab could take a controller for a mouse. This is now re-checked every 2 seconds, and controller data is never changed by the mouse block (issue #1)
+
+---
+
 ## 1.3.0
 
 ### Neu
