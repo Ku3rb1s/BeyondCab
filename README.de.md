@@ -7,7 +7,7 @@
 **Raus aus der Kabine.**<br>
 Aussteigen, um den Truck gehen, von Hand kuppeln, Papiere unterschreiben, tanken und Pause machen – zu Fuß und aus der Ich-Sicht in **Euro Truck Simulator 2** und **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.3.2-ff9500)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.4.0-ff9500)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 und ATS](https://img.shields.io/badge/Spiele-ETS2%20%7C%20ATS-34c759)
 ![Kostenlos](https://img.shields.io/badge/kostenlos-ohne%20Konto-ff9f0a)
@@ -35,6 +35,8 @@ Aussteigen, um den Truck gehen, von Hand kuppeln, Papiere unterschreiben, tanken
 📦 **Road Trip (ATS)** – Bei Kurieraufträgen holst du die Sendung beim Absender ab, legst sie auf den Beifahrersitz und übergibst sie am Ziel dem Empfänger – mit Lieferschein.
 
 🚌 **Reisebusse (Coach-DLC)** – Aus- und Einsteigen an der Einstiegstür, Türen per Taste, durch den Gang laufen, über die Stufen hinaus – im Volvo-Doppeldecker auch die Treppe hoch aufs Oberdeck.
+
+🔧 **Pannen** – Kleine Schäden mit dem Pannenkit aus dem Staukasten selbst notdürftig flicken, oder den Pannendienst rufen: Ein Abschleppwagen mit Rundumleuchten fährt vor, der Mechaniker repariert am Truck und bringt dir die Rechnung.
 
 🔦 **Und noch mehr** – Funkschlüssel mit Fenstern und Truck-Finder, Taschenlampe, Warnleuchten und Unterlegkeile aus dem Staukasten, Bänke zum Pause machen, Schlafen in der Kabine, Controller-Unterstützung.
 
@@ -148,6 +150,17 @@ BeyondCab erkennt von selbst, welches Spiel läuft – es gibt nichts auszuwähl
 
 - Ablauf wie in echt: Tankdeckel öffnen, zur Säule, Tankkarte rein, PIN eintippen (im Menü einstellbar), auf Wunsch Kilometerstand, dann am Deckel tanken. Bei großem Tank geht es auf beiden Seiten
 - Die Anzeige der Säule zählt Betrag und Menge mit, danach gibt es einen Beleg mit dem Preis des Landes bzw. Bundesstaats, Kennzeichen und Kilometerstand
+
+</details>
+
+<details>
+<summary><b>Pannenkit und Pannendienst</b></summary>
+
+- Pannenkit (optional): Werkzeugkoffer aus dem Staukasten holen und an der Stelle abstellen – dann die Kabine mit Gewebeband und Kabelbindern, den Motor mit Kühlmittel und Öl, das Fahrgestell mit Kabelbindern oder beim Auflieger den Aufbau mit Flicken notdürftig reparieren. Nur provisorisch (höchstens die Hälfte, bis 20 % Schaden), den Rest macht die Werkstatt
+- Das Kit gehört zum Truck und wird beim Tanken oder in der Werkstatt aufgefüllt
+- Pannendienst (optional, über die Schnellwahl): Feststellbremse anziehen, kurz warten – ein Abschleppwagen (ETS2 Pritschenwagen, ATS Ford F-350 mit Hubarm) mit Rundumleuchten, Warnblinker und Licht fährt vor. Der Mechaniker prüft den Truck, repariert Motor, Getriebe, Kabine und Fahrgestell zur Hälfte und bringt dir die Rechnung. Ist der Truck nicht fahrbereit, rät er zum Abschleppen
+- Der Platz für den Wagen wird geprüft (Steigung, Mauern, Verkehr), der Verkehr hält an
+- Rechnungen von Pannendienst und Abschleppen (Hilfe-Dienst des Spiels, F7) liegen in der Mappe
 
 </details>
 

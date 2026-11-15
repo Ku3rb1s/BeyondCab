@@ -7,7 +7,7 @@
 **Step out of the cab.**<br>
 Get out, walk around your truck, couple by hand, sign your papers, refuel and take a break – on foot and in first person in **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.3.2-ff9500)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.4.0-ff9500)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 and ATS](https://img.shields.io/badge/Games-ETS2%20%7C%20ATS-34c759)
 ![Free](https://img.shields.io/badge/free-no%20account-ff9f0a)
@@ -35,6 +35,8 @@ English · [Deutsch](README.de.md)
 📦 **Road Trip (ATS)** – On courier jobs you pick up the parcel from the sender, put it on the passenger seat and hand it over to the recipient at the destination – with a delivery note.
 
 🚌 **Coaches (Coach DLC)** – Get out and in at the entrance door, doors at the press of a key, walk the aisle, down the steps – and in the Volvo double-decker up the stairs to the upper deck.
+
+🔧 **Breakdowns** – Patch up small damage yourself with the repair kit from the storage box, or call the breakdown service: a tow truck with beacons pulls up, the mechanic fixes your truck and brings you the invoice.
 
 🔦 **And more** – Remote key with windows and truck finder, flashlight, warning lights and chocks from the storage box, benches for a break, sleeping in the cab, controller support.
 
@@ -148,6 +150,17 @@ BeyondCab notices by itself which game is running – there's nothing to choose.
 
 - Like the real thing: open the fuel cap, go to the pump, insert your fuel card, type your PIN (set in the menu), optionally the odometer, then refuel at the cap. With large tanks on both sides
 - The pump display counts amount and volume, and you get a receipt with the local price, plates and odometer
+
+</details>
+
+<details>
+<summary><b>Repair kit and breakdown service</b></summary>
+
+- Repair kit (optional): take the toolbox from the storage box and set it down at the spot – then patch up the cab with duct tape and cable ties, the engine with coolant and oil, the chassis with cable ties, or the trailer body with patches. Temporary only (at most half, up to 20 % damage); the rest is a workshop job
+- The kit belongs to the truck and is refilled when you refuel or visit a workshop
+- Breakdown service (optional, from the quick menu): set the parking brake and wait a moment – a tow truck (a flatbed in ETS2, a Ford F-350 wrecker in ATS) with beacons, hazard lights and headlights pulls up. The mechanic checks the truck, fixes half of the engine, gearbox, cab and chassis damage and brings you the invoice. If the truck isn't roadworthy, he recommends towing
+- The spot for the tow truck is checked (slopes, walls, traffic), and traffic stops
+- Invoices from the breakdown service and from towing (the game's assistance, F7) go into your paper folder
 
 </details>
 

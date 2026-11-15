@@ -1,5 +1,49 @@
 # Änderungen · Changelog
 
+## 1.4.0
+
+### Neu
+
+- **Pannenkit** (optional): Kleine Schäden notdürftig selbst flicken – Kabine mit Gewebeband und Kabelbindern, Motor mit Kühlmittel und Öl, Fahrgestell mit Kabelbindern, beim Auflieger der Aufbau mit Flicken. Dazu den Werkzeugkoffer aus dem Staukasten holen und an der Stelle abstellen, dann erscheinen die Reparaturpunkte. Repariert wird nur provisorisch (höchstens die Hälfte, bis 20 % Schaden), der Rest bleibt für die Werkstatt. Das Kit gehört zum Truck und wird beim Tanken oder in der Werkstatt nachgefüllt
+- **Pannendienst** (optional, über die Schnellwahl): Ein Abschleppwagen mit Rundumleuchten, Warnblinker und Licht fährt vor, ein Mechaniker steigt aus, prüft den Truck, repariert kniend am Vorderrad Motor, Getriebe, Kabine und Fahrgestell zur Hälfte und bringt dir die Rechnung. Ist der Truck nicht mehr fahrbereit, rät er zum Abschleppen. In ETS2 ein Pritschenwagen, in ATS ein Ford F-350 mit Hubarm. Der Platz wird geprüft (Steigung, Mauern, Verkehr), der Verkehr hält an, und der Mechaniker läuft um deinen Zug herum
+- **Rechnungen in der Mappe**: Pannendienst und Abschleppen über den Hilfe-Dienst des Spiels (F7) kommen als Rechnung mit Einsatzort, Positionen und Mehrwertsteuer des Landes (optional)
+- **Staukasten neu**: übersichtlich in Gruppen, mit Maus-Zeiger (Klick nimmt, Rechtsklick schließt) und Controller-Stick
+- **Eigene Geräusche** für Pannendienst und Pannenkit (Anfahrt, Tür, Werkzeugkiste, Schlagschrauber, Ratsche, Gewebeband, Kabelbinder, Abfahrt) mit eigener Lautstärke im Menü
+- **Busse**: Fahrtenblatt mit Pünktlichkeit je Halt, Mautbeleg sowie Fähr- und Bahnticket als Blätter in der Mappe
+
+### Verbessert
+
+- Beim Laufen ist auch die Tastatur des Spiels gesperrt, wenn sie über DirectInput gelesen wird – WASD lenkte sonst den Truck
+- Island: Orte für Rechnungen und Belege (vorher erschien Glasgow)
+- Bus: Tankdeckel und Kartenterminal nicht mehr durch die Wand aus dem Innenraum, dazu weitere Kleinigkeiten (Oberdeck, Aufstehen, Türen)
+
+### Behoben
+
+- Einsteigen ohne Tastaturtaste für die Innenkamera (nur Controller belegt): Die Kamera wechselte nicht (Issue #3)
+
+---
+
+### New
+
+- **Repair kit** (optional): patch up small damage yourself – the cab with duct tape and cable ties, the engine with coolant and oil, the chassis with cable ties, and on the trailer the body with patches. Take the toolbox from the storage box and set it down at the spot, then the repair points appear. Repairs are only temporary (at most half, up to 20 % damage); the rest is left for the workshop. The kit belongs to the truck and is refilled when refuelling or at the workshop
+- **Breakdown service** (optional, from the quick menu): a tow truck with beacons, hazard lights and headlights pulls up, a mechanic gets out, checks the truck, kneels at the front wheel to fix half of the engine, gearbox, cab and chassis damage and brings you the invoice. If the truck isn't roadworthy, he recommends towing. A flatbed in ETS2, a Ford F-350 wrecker in ATS. The spot is checked (slopes, walls, traffic), traffic stops, and the mechanic walks around your rig
+- **Invoices in the paper folder**: the breakdown service and towing through the game's assistance (F7) arrive as an invoice with place, items and the country's VAT (optional)
+- **Storage box redesigned**: grouped and clear, with a mouse pointer (click takes, right-click closes) and controller stick
+- **Own sounds** for the breakdown service and repair kit (arrival, door, toolbox, impact wrench, ratchet, duct tape, cable ties, driving off) with their own volume in the menu
+- **Coaches**: trip sheet with punctuality per stop, toll receipt and ferry and train tickets as sheets in the paper folder
+
+### Improved
+
+- While walking, the game's keyboard is blocked too when it's read through DirectInput – WASD steered the truck before
+- Iceland: places for invoices and receipts (Glasgow showed up before)
+- Coach: fuel cap and card terminal no longer reachable through the wall from inside, plus smaller fixes (upper deck, standing up, doors)
+
+### Fixed
+
+- Getting in without a keyboard key for the interior camera (controller only): the camera didn't switch (issue #3)
+
+---
+
 ## 1.3.2
 
 ### Verbessert (aus 1.3.1)
