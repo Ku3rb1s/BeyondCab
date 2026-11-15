@@ -60,6 +60,8 @@ Am Spiel selbst wird nichts verändert: keine Mods in den Spieldateien, keine Ä
 | Tankbeleg, Kartenterminal und Zapfsäule | Dasselbe in ATS: Gallonen und Dollar |
 | ![Schriftliche Weisungen](bilder/weisungen-de.png) | ![ELD](bilder/eld.png) |
 | Schriftliche Weisungen nach ADR | ELD-Protokoll (ATS) |
+| ![Staukasten](bilder/staukasten-de.png) | ![Rechnung](bilder/rechnung-de.png) |
+| Staukasten mit Werkzeugkoffer (Pannenkit) | Rechnung vom Pannendienst in der Mappe |
 
 ## Voraussetzungen
 

@@ -60,6 +60,8 @@ Nothing in the game is changed: no mods in the game files, no changes to `config
 | Fuel receipt, card terminal and pump | The same in ATS: gallons and dollars |
 | ![Instructions in writing](bilder/weisungen-en.png) | ![ELD](bilder/eld.png) |
 | ADR instructions in writing | ELD record (ATS) |
+| ![Storage box](bilder/staukasten-en.png) | ![Invoice](bilder/rechnung-en.png) |
+| Storage box with toolbox (repair kit) | Breakdown service invoice in the paper folder |
 
 ## Requirements
 
