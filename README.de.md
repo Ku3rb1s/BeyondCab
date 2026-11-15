@@ -54,7 +54,7 @@ Am Spiel selbst wird nichts verändert: keine Mods in den Spieldateien, keine Ä
 |---|---|
 | ![Frachtbrief](bilder/frachtbrief-de.png) | ![Bill of Lading](bilder/bill-of-lading.png) |
 | CMR-Frachtbrief (ETS2), quittiert | Bill of Lading mit HAZMAT (ATS) |
-| ![Papiermappe](bilder/papiermappe-de.png) | ![Schnellwahl](bilder/schnellwahl-de.png) |
+| ![Papiermappe](bilder/papiermappe-de.png) | ![Schnellwahl](bilder/schnellwahl-140-de.png) |
 | Papiermappe (P) mit Fächern | Schnellwahl-Rad (Tab halten) |
 | ![Tanken](bilder/tanken-de.png) | ![Tanken in den USA](bilder/tanken-us.png) |
 | Tankbeleg, Kartenterminal und Zapfsäule | Dasselbe in ATS: Gallonen und Dollar |

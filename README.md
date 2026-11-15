@@ -54,7 +54,7 @@ Nothing in the game is changed: no mods in the game files, no changes to `config
 |---|---|
 | ![Consignment note](bilder/frachtbrief-en.png) | ![Bill of Lading](bilder/bill-of-lading.png) |
 | CMR consignment note (ETS2), signed | Bill of Lading with HAZMAT (ATS) |
-| ![Paper folder](bilder/papiermappe-en.png) | ![Quick menu](bilder/schnellwahl-en.png) |
+| ![Paper folder](bilder/papiermappe-en.png) | ![Quick menu](bilder/schnellwahl-140-en.png) |
 | Paper folder (P) with sections | Quick menu (hold Tab) |
 | ![Refuelling](bilder/tanken-en.png) | ![Refuelling in the US](bilder/tanken-us.png) |
 | Fuel receipt, card terminal and pump | The same in ATS: gallons and dollars |
