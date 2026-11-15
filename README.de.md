@@ -5,7 +5,7 @@
 # BeyondCab
 
 **Raus aus der Kabine.**<br>
-Aussteigen, um den Truck gehen, von Hand kuppeln, Papiere unterschreiben, tanken und Pause machen – zu Fuß und aus der Ich-Sicht in **Euro Truck Simulator 2** und **American Truck Simulator**.
+Aussteigen, um den Truck gehen, von Hand kuppeln, Papiere unterschreiben, tanken, Pannen beheben und Pause machen – zu Fuß und aus der Ich-Sicht in **Euro Truck Simulator 2** und **American Truck Simulator**.
 
 [![Version](https://img.shields.io/badge/Version-v1.4.0-ff9500)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
@@ -26,7 +26,7 @@ Aussteigen, um den Truck gehen, von Hand kuppeln, Papiere unterschreiben, tanken
 
 🔗 **Auflieger von Hand kuppeln** – Leitungen lösen, Keile anlegen, Stützen kurbeln (oder hydraulisch fahren), Königszapfen ziehen – und alles wieder zurück. Mit Checkliste, Schlepptest und Abfahrtskontrolle rund um den Zug.
 
-📄 **Papiere wie in echt** – In ETS2 der CMR-Frachtbrief vom Lager-Mitarbeiter, in ATS die Bill of Lading. Selbst unterschreiben und stempeln, am Ziel quittiert zurück. Dazu Plombe, Wiegeschein, Gefahrgut-Papiere, Fahrerkarte bzw. ELD und Polizei- bzw. DOT-Kontrollen.
+📄 **Papiere wie in echt** – In ETS2 der CMR-Frachtbrief vom Lager-Mitarbeiter, in ATS die Bill of Lading. Selbst unterschreiben und stempeln, am Ziel quittiert zurück. Dazu Plombe, Wiegeschein, Gefahrgut-Papiere, Mautbelege, Fähr- und Bahntickets, Fahrerkarte bzw. ELD und Polizei- bzw. DOT-Kontrollen.
 
 🪪 **Führerschein und Bußgeld** – Dein Führerschein (ETS2) bzw. deine CDL (ATS) mit Klassen, ADR und Code 95 bzw. Endorsements und Medical Card – mit deinem Profilbild aus dem Spiel. Polizei, Blitzer und Verlader prüfen ihn, Bußgeldbescheide bzw. Strafzettel kommen in die Papiermappe. Und anschnallen: Ohne Gurt warnt der Gong.
 
@@ -34,11 +34,11 @@ Aussteigen, um den Truck gehen, von Hand kuppeln, Papiere unterschreiben, tanken
 
 📦 **Road Trip (ATS)** – Bei Kurieraufträgen holst du die Sendung beim Absender ab, legst sie auf den Beifahrersitz und übergibst sie am Ziel dem Empfänger – mit Lieferschein.
 
-🚌 **Reisebusse (Coach-DLC)** – Aus- und Einsteigen an der Einstiegstür, Türen per Taste, durch den Gang laufen, über die Stufen hinaus – im Volvo-Doppeldecker auch die Treppe hoch aufs Oberdeck.
+🚌 **Reisebusse (Coach-DLC)** – Aus- und Einsteigen an der Einstiegstür, Türen per Taste, durch den Gang laufen, über die Stufen hinaus – im Volvo-Doppeldecker auch die Treppe hoch aufs Oberdeck. Ein Fahrtenblatt hält fest, wie pünktlich du an jedem Halt warst.
 
-🔧 **Pannen** – Kleine Schäden mit dem Pannenkit aus dem Staukasten selbst notdürftig flicken, oder den Pannendienst rufen: Ein Abschleppwagen mit Rundumleuchten fährt vor, der Mechaniker repariert am Truck und bringt dir die Rechnung.
+🔧 **Pannen** – Kleine Schäden mit dem Pannenkit aus dem Staukasten selbst notdürftig flicken, oder den Pannendienst rufen: Ein Abschleppwagen mit Rundumleuchten und Warnblinker fährt vor, der Mechaniker kniet am Rad, repariert den Truck und bringt dir die Rechnung.
 
-🔦 **Und noch mehr** – Funkschlüssel mit Fenstern und Truck-Finder, Taschenlampe, Warnleuchten und Unterlegkeile aus dem Staukasten, Bänke zum Pause machen, Schlafen in der Kabine, Controller-Unterstützung.
+🔦 **Und noch mehr** – Funkschlüssel mit Fenstern und Truck-Finder, Taschenlampe, Warnleuchten, Unterlegkeile und Arbeitsleuchte aus dem Staukasten, Bänke zum Pause machen, Schlafen in der Kabine, Anschnallen, jeder Klang einzeln einstellbar, Controller-Unterstützung.
 
 ## In 3 Schritten startklar
 
@@ -115,7 +115,10 @@ Am Spiel selbst wird nichts verändert: keine Mods in den Spieldateien, keine Ä
 - Verplombte Auflieger, eigener Auflieger mit Verladeschein, Palettentausch (ETS2), Wiegeschein bei Tank, Silo und Schüttgut
 - Gefahrgut: in ETS2 nach ADR mit Schriftlichen Weisungen, in ATS nach 49 CFR mit HAZMAT-Kennzeichnung und ERG-Leitfaden
 - Polizei- bzw. DOT-Kontrollen: Hält dich die Polizei an, prüft sie Papiere, Fahrerkarte bzw. ELD und bei Gefahrgut die Ausrüstung. Was fehlt, kostet ein Bußgeld
+- Am Ziel vermerkt der Empfänger Verspätungen und Schäden auf dem Frachtbrief – vom kleinen Vermerk bis zur Schadensmeldung
 - Kühlauflieger: Am Kühlaggregat druckst du das Temperaturprotokoll aus
+- An Mautstellen, auf Fähren und im Kanaltunnel-Zug bekommst du Mautbeleg bzw. Ticket mit dem Preis, den das Spiel berechnet hat
+- Rechnungen: Pannendienst und Abschleppen über den Hilfe-Dienst des Spiels (F7) schicken eine Rechnung mit Einsatzort, Positionen und der Mehrwertsteuer des Landes
 - Fährhafen-Check (ETS2, abschaltbar): Vor der Fähre nach Großbritannien und von Griechenland und Albanien nach Italien prüfst du den Auflieger auf blinde Passagiere. BeyondCab erinnert dich, wenn die Route über den Hafen führt oder du dort stehst. Wer es auslässt, riskiert bei der Ankunft eine Strafe
 - Alles steckt in der Papiermappe (P), sortiert in Fächer – auch im stehenden Fahrzeug. Die letzten Papiere liegen im Menü unter Papiere und lassen sich als PDF speichern
 
@@ -146,6 +149,19 @@ BeyondCab erkennt von selbst, welches Spiel läuft – es gibt nichts auszuwähl
 </details>
 
 <details>
+<summary><b>Reisebusse (Coach-DLC)</b></summary>
+
+- MAN Lion's Coach, Scania Touring und Volvo 9700 werden erkannt. Nötig ist der Führerschein Klasse D, mit Anhänger DE
+- Aus- und Einsteigen an der vorderen Einstiegstür rechts – die Türen gehen dabei auf. An der Tür kurz drücken = einsteigen, halten = Türen auf bzw. zu
+- Im Bus laufen: vom Fahrersitz aufstehen, durch den Gang bis zur letzten Reihe, über die Stufen der Vorder- oder Mitteltür hinaus und wieder hinein
+- Volvo-Doppeldecker: Treppe zum Oberdeck; im niedrigen Unterdeck bleibt die Augenhöhe unter der Decke
+- Staukasten am Gepäckraum zwischen den Achsen, Tankdeckel auf der Seite des Tanks
+- Fahrtenblatt in der Papiermappe: jeder Halt mit geplanter und tatsächlicher Zeit, Fahrgästen ein und aus und wie pünktlich du warst
+- Auf Wunsch im Bus mit der Innenansicht laufen (mit dem Innenklang des Busses)
+
+</details>
+
+<details>
 <summary><b>Tanken</b></summary>
 
 - Ablauf wie in echt: Tankdeckel öffnen, zur Säule, Tankkarte rein, PIN eintippen (im Menü einstellbar), auf Wunsch Kilometerstand, dann am Deckel tanken. Bei großem Tank geht es auf beiden Seiten
@@ -168,9 +184,11 @@ BeyondCab erkennt von selbst, welches Spiel läuft – es gibt nichts auszuwähl
 <summary><b>Funkschlüssel, Ausrüstung und mehr</b></summary>
 
 - Funkschlüssel: ab- und aufschließen mit Blinkern und auf Wunsch kurzem Hupen, am Truck halten für die Fenster, weit weg halten zum Finden. Follow-me-home und automatisches Abschließen
-- Im Staukasten hinter der Kabine: Warnleuchten, Pylonen, Warndreieck, Unterlegkeile, Feuerlöscher, Erste-Hilfe-Kasten, eine Akku-Arbeitsleuchte auf Dreibein und ein Campingstuhl. Rausnehmen, aufstellen, wieder einsammeln – sie werfen echte Schatten wie die Objekte des Spiels
+- Im Staukasten hinter der Kabine: Warnleuchten, Pylonen, Warndreieck, Unterlegkeile, Feuerlöscher, Erste-Hilfe-Kasten, Werkzeugkoffer, eine Akku-Arbeitsleuchte auf Dreibein und ein Campingstuhl. Rausnehmen, aufstellen, wieder einsammeln – sie werfen echte Schatten wie die Objekte des Spiels
+- Der Staukasten zeigt alles in Gruppen: wählen mit dem Maus-Zeiger, dem Controller-Stick oder den Zifferntasten
 - Schnellwahl-Rad (Tab halten), Bänke an Rastplätzen zum Pause machen
 - Taschenlampe in der Hand oder am Kopf, mit mehreren Modi samt SOS
+- Jeder Klang hat seine eigene Lautstärke (Schritte, Tür, Tankdeckel, Funkschlüssel, Staukasten, Pannendienst …), 0 % schaltet ihn aus
 - Controller mit Xbox- oder PlayStation-Symbolen, alle Knöpfe frei belegbar
 - Einführung beim ersten Start und „Erste Schritte“: Beim ersten Aussteigen, Kuppeln, Tanken oder bei den Papieren zeigt eine Karte rechts die passenden Tasten – je einmal, genau dann, wenn du sie brauchst
 - Automatische Updates, Einstellungen exportieren und importieren, Deutsch und Englisch
@@ -190,7 +208,8 @@ BeyondCab erkennt von selbst, welches Spiel läuft – es gibt nichts auszuwähl
 | T | LB | Taschenlampe (halten: Modus wechseln) |
 | K | RB | Funkschlüssel: kurz ab-/aufschließen, am Truck halten: Fenster, weiter weg halten: Truck finden |
 | P | Y | Papiermappe; darin öffnen 1–4 (Controller: Steuerkreuz) ein Blatt |
-| Tab (halten) | Steuerkreuz hoch | Schnellwahl |
+| Tab (halten) | Steuerkreuz hoch | Schnellwahl (dort auch den Pannendienst rufen) |
+| J | – | anschnallen |
 | rechte Maustaste | LT | Zoom, auf Papieren die Lupe |
 | Strg + F7 | – | Menü (mit Suchfeld) |
 | Strg + Alt + Z | Back (halten) | zurück zum Truck |
@@ -206,7 +225,7 @@ Töne und Listen (Bänke, Tankstellen, Parkplätze) stecken in der DLL. In `Doku
 
 Eigene Töne: Eine Datei mit demselben Namen in `BeyondCab\sounds\` ersetzt den eingebauten Ton (zum Beispiel `truck_lock.wav`).
 
-Im Spiel-Log (`Dokumente\<Spiel>\game.log.txt`) stehen alle Meldungen des Plugins mit `[BeyondCab]` davor. Bei Problemen hilft diese Datei weiter.
+BeyondCab schreibt ein eigenes Log nach `BeyondCab\beyondcab.log`; auch im Spiel-Log (`Dokumente\<Spiel>\game.log.txt`) stehen alle Meldungen mit `[BeyondCab]` davor. Bei einer Fehlermeldung bitte `beyondcab.log` anhängen.
 
 </details>
 
@@ -227,6 +246,8 @@ Get-FileHash .\BeyondCab-Setup-*.exe -Algorithm SHA256
 **Ich will keinen Papierkram.** Frachtpapiere, Tankkarte, Unterlegkeile bei Aufträgen und Fahrerkarte bzw. ELD lassen sich im Menü einzeln abschalten.
 
 **Ich habe noch „ETS2 Walk“ (1.0.x).** Einfach das neue Setup starten. Es entfernt die alte `ets2_walk.dll`, Einstellungen und Papiere ziehen in den Ordner `BeyondCab` um.
+
+**Mein Truck ist beschädigt – muss ich in die Werkstatt?** Kleine Schäden flickst du mit dem Pannenkit selbst, größere repariert der Pannendienst vor Ort. Beides ist nur provisorisch: Ein Teil des Schadens bleibt immer für die Werkstatt. Beides lässt sich im Menü unter **Pannenkit** abschalten.
 
 **Funktioniert es mit TruckersMP?** Nein, nur im Einzelspieler.
 

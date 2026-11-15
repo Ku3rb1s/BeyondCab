@@ -5,7 +5,7 @@
 # BeyondCab
 
 **Step out of the cab.**<br>
-Get out, walk around your truck, couple by hand, sign your papers, refuel and take a break – on foot and in first person in **Euro Truck Simulator 2** and **American Truck Simulator**.
+Get out, walk around your truck, couple by hand, sign your papers, refuel, fix breakdowns and take a break – on foot and in first person in **Euro Truck Simulator 2** and **American Truck Simulator**.
 
 [![Version](https://img.shields.io/badge/Version-v1.4.0-ff9500)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
@@ -26,7 +26,7 @@ English · [Deutsch](README.de.md)
 
 🔗 **Couple your trailer by hand** – Disconnect the lines, place the chocks, crank the landing gear (or drive it hydraulically), pull the kingpin release – and everything back again. With a checklist, a tug test and a walk-around inspection.
 
-📄 **Real paperwork** – In ETS2 the CMR consignment note from the warehouse worker, in ATS the Bill of Lading. Sign and stamp it yourself and get it back signed at the destination. Plus seals, weighing tickets, dangerous goods papers, driver card or ELD, and police or DOT inspections.
+📄 **Real paperwork** – In ETS2 the CMR consignment note from the warehouse worker, in ATS the Bill of Lading. Sign and stamp it yourself and get it back signed at the destination. Plus seals, weighing tickets, dangerous goods papers, toll receipts, ferry and train tickets, driver card or ELD, and police or DOT inspections.
 
 🪪 **Driving licence and fines** – Your licence (ETS2) or CDL (ATS) with classes, ADR and code 95 or endorsements and medical card – with your game profile picture. Police, speed cameras and the shipper check it, notices of fine or traffic citations arrive in your paper folder. And buckle up: without a seatbelt the chime warns you.
 
@@ -34,11 +34,11 @@ English · [Deutsch](README.de.md)
 
 📦 **Road Trip (ATS)** – On courier jobs you pick up the parcel from the sender, put it on the passenger seat and hand it over to the recipient at the destination – with a delivery note.
 
-🚌 **Coaches (Coach DLC)** – Get out and in at the entrance door, doors at the press of a key, walk the aisle, down the steps – and in the Volvo double-decker up the stairs to the upper deck.
+🚌 **Coaches (Coach DLC)** – Get out and in at the entrance door, doors at the press of a key, walk the aisle, down the steps – and in the Volvo double-decker up the stairs to the upper deck. A trip sheet records how punctual you were at every stop.
 
-🔧 **Breakdowns** – Patch up small damage yourself with the repair kit from the storage box, or call the breakdown service: a tow truck with beacons pulls up, the mechanic fixes your truck and brings you the invoice.
+🔧 **Breakdowns** – Patch up small damage yourself with the repair kit from the storage box, or call the breakdown service: a tow truck with beacons and hazard lights pulls up, the mechanic kneels at your wheel, fixes the truck and brings you the invoice.
 
-🔦 **And more** – Remote key with windows and truck finder, flashlight, warning lights and chocks from the storage box, benches for a break, sleeping in the cab, controller support.
+🔦 **And more** – Remote key with windows and truck finder, flashlight, warning lights, chocks and a work light from the storage box, benches for a break, sleeping in the cab, seatbelt, sounds you can tune one by one, controller support.
 
 ## Ready in 3 steps
 
@@ -115,7 +115,10 @@ Nothing in the game is changed: no mods in the game files, no changes to `config
 - Sealed trailers, your own trailer with a loading sheet, pallet exchange (ETS2), weighing tickets for tank, silo and bulk loads
 - Dangerous goods: in ETS2 per ADR with instructions in writing, in ATS per 49 CFR with HAZMAT marking and the ERG guide
 - Police or DOT inspections: when the police stop you, they check your papers, driver card or ELD and, for dangerous goods, your equipment. Anything missing costs a fine
+- At the destination the receiver notes delays and damage on the consignment note – from a small remark to a damage report
 - Refrigerated trailers: print the temperature record at the reefer unit
+- Toll booths, ferries and the Channel train hand you a toll receipt or ticket with the price the game charged
+- Invoices: the breakdown service and towing through the game's assistance (F7) send an invoice with place, items and the local VAT
 - Ferry port check (ETS2, optional): before the ferry to Britain, and from Greece and Albania to Italy, you check the trailer for stowaways. BeyondCab reminds you when your route uses the port or you stand there. Skip it and you risk a penalty on arrival
 - Everything is in the paper folder (P), sorted into sections – also while the truck is standing. Your latest papers are kept in the menu under Papers and can be saved as PDF
 
@@ -146,6 +149,19 @@ BeyondCab notices by itself which game is running – there's nothing to choose.
 </details>
 
 <details>
+<summary><b>Coaches (Coach DLC)</b></summary>
+
+- MAN Lion's Coach, Scania Touring and Volvo 9700 are recognised. You need driving licence class D (with a trailer DE)
+- Get out and in at the front entrance door on the right – the doors open. At the door: tap to get in, hold to open or close the doors
+- Walk in the coach: get up from the driver's seat, walk down the aisle to the back row, out over the steps of the front or middle door and back in
+- Volvo double-decker: stairs to the upper deck; in the low lower deck your eye height stays below the ceiling
+- Storage box at the luggage hold between the axles, fuel cap on the side of the tank
+- Trip sheet in the paper folder: every stop with planned and actual time, passengers on and off and how punctual you were
+- Optional: walk the coach in the interior view (with the coach's interior sound)
+
+</details>
+
+<details>
 <summary><b>Refuelling</b></summary>
 
 - Like the real thing: open the fuel cap, go to the pump, insert your fuel card, type your PIN (set in the menu), optionally the odometer, then refuel at the cap. With large tanks on both sides
@@ -168,9 +184,11 @@ BeyondCab notices by itself which game is running – there's nothing to choose.
 <summary><b>Remote key, equipment and more</b></summary>
 
 - Remote key: lock and unlock with indicators and an optional short honk, hold at the truck for the windows, hold far away to find it. Follow-me-home and automatic locking
-- In the storage box behind the cab: warning lights, cones, warning triangle, chocks, fire extinguisher, first aid kit, a battery work light on a tripod and a camping chair. Take them out, place them, pick them up again – they cast real shadows like the game's own objects
+- In the storage box behind the cab: warning lights, cones, warning triangle, chocks, fire extinguisher, first aid kit, toolbox, a battery work light on a tripod and a camping chair. Take them out, place them, pick them up again – they cast real shadows like the game's own objects
+- The storage box shows everything in groups: pick with the mouse pointer, the controller stick or the number keys
 - Quick menu (hold Tab), benches at rest areas to take a break
 - Flashlight in your hand or on your head, with several modes including SOS
+- Every sound has its own volume (footsteps, door, fuel cap, remote key, storage box, breakdown service …), 0 % turns it off
 - Controller with Xbox or PlayStation symbols, all buttons can be remapped
 - An introduction on first start and "First steps": the first time you get out, couple, refuel or handle papers, a card on the right shows the keys you need – each once, right when you need it
 - Automatic updates, export and import of settings, German and English
@@ -190,7 +208,8 @@ BeyondCab notices by itself which game is running – there's nothing to choose.
 | T | LB | flashlight (hold: change mode) |
 | K | RB | remote key: tap to lock/unlock, hold at the truck: windows, hold further away: find the truck |
 | P | Y | paper folder; 1–4 (controller: D-pad) opens a sheet |
-| Tab (hold) | D-pad up | quick menu |
+| Tab (hold) | D-pad up | quick menu (also calls the breakdown service) |
+| J | – | seatbelt |
 | right mouse button | LT | zoom, magnifier on papers |
 | Ctrl + F7 | – | menu (with search box) |
 | Ctrl + Alt + Z | Back (hold) | back to the truck |
@@ -206,7 +225,7 @@ Sounds and lists (benches, fuel stations, parking) are built into the DLL. `Docu
 
 Your own sounds: a file with the same name in `BeyondCab\sounds\` replaces the built-in sound (for example `truck_lock.wav`).
 
-The game log (`Documents\<game>\game.log.txt`) lists every message of the plugin, prefixed with `[BeyondCab]`. It helps when something goes wrong.
+BeyondCab writes its own log to `BeyondCab\beyondcab.log`; the game log (`Documents\<game>\game.log.txt`) also lists every message, prefixed with `[BeyondCab]`. Attach `beyondcab.log` when you report a problem.
 
 </details>
 
@@ -227,6 +246,8 @@ Get-FileHash .\BeyondCab-Setup-*.exe -Algorithm SHA256
 **I don't want paperwork.** Shipping papers, fuel card, chocks on jobs and driver card or ELD can each be turned off in the menu.
 
 **I still have “ETS2 Walk” (1.0.x).** Just run the new setup. It removes the old `ets2_walk.dll`, and your settings and papers move to the `BeyondCab` folder.
+
+**My truck is damaged – do I have to drive to a workshop?** Small damage you can patch up yourself with the repair kit, larger damage the breakdown service fixes on the spot. Both are temporary: part of the damage always stays for the workshop. Both can be turned off in the menu under **Repair kit**.
 
 **Does it work with TruckersMP?** No, single player only.
 
