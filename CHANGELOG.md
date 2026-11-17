@@ -1,5 +1,51 @@
 # Änderungen · Changelog
 
+## 1.4.1
+
+### Neu
+
+- **Chinesisch** in der Sprachauswahl: 简体中文 und 繁體中文 (Automatisch je nach Windows-Sprache). Die Übersetzung entsteht gerade in der Community – noch fehlende Texte erscheinen auf Englisch
+
+### Verbessert
+
+- **Ankoppeln zu Fuß** (Issue #4): Wo bisher einfach kein Punkt erschien, sagt BeyondCab jetzt, woran es liegt:
+  - Spieloption „Erweitertes Ankoppeln“ aus (Optionen → Gameplay) – ohne sie geht Ankoppeln nur per Anhänger-Taste im Truck
+  - „Auf der anderen Seite“, wenn man auf der falschen Seite des Trucks oder Anhängers steht
+  - „Zapfen nicht eingerastet“, wenn der Truck knapp vor dem Königszapfen steht oder die Höhe nicht passt
+  - „Erst vorziehen und neu unterfahren“ erscheint jetzt auch dann, wenn es vorher still blieb
+- Der Kuppel-Punkt verschwindet nicht mehr, wenn der Truck noch minimal rollt
+- Ausführlicheres Log für Fehlerberichte: aktive Mods, Kuppel-Einstellungen, Anhänger, Aus- und Einsteigen, jeder Kuppel-Schritt und warum er nicht bedienbar ist
+
+### Behoben
+
+- Papiere: lange Reiter („Bescheide & Rechnungen“) liefen ineinander
+- Ankoppeln: Der Ablauf konnte gleich nach „Sattelkupplung prüfen“ abbrechen
+- Ankoppeln: „Stützen hochkurbeln“ konnte bei „Erst Leitungen anschließen“ hängen bleiben
+- Der Hinweis zum Werkzeugkoffer nennt jetzt auch das Fahrgestell
+
+---
+
+### New
+
+- **Chinese** in the language selection: 简体中文 and 繁體中文 (Auto follows the Windows language). The translation is being made by the community – missing texts show in English
+
+### Improved
+
+- **Coupling on foot** (issue #4): where simply no point appeared, BeyondCab now tells you why:
+  - game option "Trailer advanced coupling" is off (Options → Gameplay) – without it coupling only works with the trailer key in the cab
+  - "On the other side" when you stand on the wrong side of the truck or trailer
+  - "Kingpin not locked" when the truck stopped just short of the kingpin or the height doesn't fit
+  - "Pull forward and back under again first" now also shows where it stayed silent before
+- The coupling point no longer disappears while the truck is still creeping slightly
+- More detailed log for bug reports: active mods, coupling settings, trailer, getting out and in, every coupling step and why it can't be used
+
+### Fixed
+
+- Papers: long tabs ("Notices & invoices") ran into each other
+- Coupling: the sequence could end right after "Check fifth wheel"
+- Coupling: "Crank up landing gear" could get stuck on "Connect lines first"
+- The toolbox note now mentions the chassis too
+
 ## 1.4.0
 
 ### Neu
