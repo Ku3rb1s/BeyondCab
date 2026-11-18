@@ -7,7 +7,7 @@
 **Step out of the cab.**<br>
 Get out, walk around your truck, couple by hand, sign your papers, refuel, fix breakdowns and take a break – on foot and in first person in **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.4.1-ff9500)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.4.2-ff9500)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 and ATS](https://img.shields.io/badge/Games-ETS2%20%7C%20ATS-34c759)
 ![Free](https://img.shields.io/badge/free-no%20account-ff9f0a)
@@ -67,6 +67,8 @@ Nothing in the game is changed: no mods in the game files, no changes to `config
 
 - Windows 10 or 11 (64-bit)
 - Euro Truck Simulator 2 and/or American Truck Simulator **1.62** on Steam, single player – 1.61 is still supported
+- **Developer camera on**: getting out uses the game's developer camera. With the game closed, set these two lines in `Documents\<game>\config.cfg` to `"1"`: `uset g_developer "1"` and `uset g_console "1"`. If they are off, BeyondCab tells you after the start
+- On laptops F7 may need the **Fn** key (Ctrl + Fn + F7) – the menu key can be changed in the menu or in `beyondcab.ini` (`menu_key_ctrl`)
 - After a game update some features may stop working until a new version comes out. The plugin checks at start-up whether everything still fits and only switches off the affected part. After a game update it tells you once how things stand; the check report (`BeyondCab\pruefbericht.txt`, menu › Game version › Open) lists every spot it checked – handy for bug reports
 
 ---

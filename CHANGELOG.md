@@ -1,5 +1,21 @@
 # Änderungen · Changelog
 
+## 1.4.2
+
+### Verbessert
+
+- **Entwicklerkamera aus** (Issue #5): Aussteigen braucht die Entwicklerkamera des Spiels (`uset g_developer "1"` und `uset g_console "1"` in der `config.cfg`). Ist sie aus, sagt BeyondCab das jetzt kurz nach dem Start und zeigt es unter Allgemein › Spielversion – vorher passierte beim Drücken von E einfach nichts
+- Das Log nennt die Einstellungen der Entwicklerkamera und den Renderer des Spiels (BeyondCab braucht DirectX 11)
+- README: Entwicklerkamera unter den Voraussetzungen, Hinweis zur Fn-Taste für Strg + F7 auf Laptops
+
+---
+
+### Improved
+
+- **Developer camera off** (issue #5): getting out needs the game's developer camera (`uset g_developer "1"` and `uset g_console "1"` in `config.cfg`). If it's off, BeyondCab now tells you shortly after the start and shows it under General › Game version – before, pressing E simply did nothing
+- The log lists the developer camera settings and the game's renderer (BeyondCab needs DirectX 11)
+- README: developer camera under requirements, note about the Fn key for Ctrl + F7 on laptops
+
 ## 1.4.1
 
 ### Neu
