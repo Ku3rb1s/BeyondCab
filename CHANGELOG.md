@@ -1,5 +1,165 @@
 # Änderungen · Changelog
 
+## 1.4.4
+
+### Neu
+
+- **Русский**: Russisch in der Sprachauswahl (Automatisch bei russischem Windows) – Übersetzung von **boss-22-boss** (Issue #7), vielen Dank! Die Sprachauswahl hat jetzt eine eigene Zeile
+
+### Behoben
+
+- **Keine Taste ging** (Issue #6, wohl auch #5): Steht in der `config.cfg` des Spiels `uset g_console_state "1"`, hielt BeyondCab die Konsole für offen und nahm weder Strg + F7 noch E noch die Controller-Taste an. Jetzt zählt dieser gespeicherte Wert erst, wenn die Konsole einmal geschlossen wurde
+- Der Hinweis „Entwicklerkamera aus“ kam auch, wenn die `config.cfg` gar nicht gelesen werden konnte; jetzt nur noch, wenn die Zeilen wirklich auf 0 stehen – und erst im laufenden Spiel, 15 Sekunden lang
+- Menü in 1440p/4K: Klicks direkt nach einer Mausbewegung landeten manchmal daneben
+- Russisch/Chinesisch: Status der Papiere (bezahlt, abgelaufen …) wieder farbig, abgelaufene Nachweise rot; lange Texte nicht mehr abgeschnitten; die US-Bill-of-Lading bleibt englisch; Wochentage, Ländernamen und Sätze mit Tasten jetzt übersetzbar
+- Abschnitt „Papiere“ unter Anzeige stand im englischen Menü deutsch
+- Log: lange Mod-Listen vollständig, ignorierte Tasten mit Grund, weniger doppelte Zeilen
+- **Benutzername mit kyrillischen oder chinesischen Zeichen** (oder OneDrive-Dokumente): BeyondCab fand das Spielprofil nicht – Papiere, Pannenkit und Fahrtenschreiber wurden nie gespeichert, Einstellungen landeten im Plugin-Ordner und die eigenen Modelle (Warnleuchte, Keile …) fehlten. Die bisherigen Einstellungen und Papiere aus dem Plugin-Ordner werden beim ersten Start übernommen
+- **Blitzer**: Ein noch ausstehender Bescheid wurde nach einem Profilwechsel im anderen Profil abgebucht
+- **Fahrtenschreiber**: Nach dem Laden eines älteren Spielstands blieben Lenkzeit, Pause und Karte auf dem späteren Stand – eine Kontrolle konnte dann zu Unrecht Bußgeld verlangen bzw. Verstöße übersehen
+- Maut- und Fährbeleg nannten nach dem Abkoppeln noch den Auflieger
+- Konsole: Mit gespeichertem `g_console_state "1"` zählt jetzt auch das erste Öffnen der Konsole (Tippen löst nichts aus)
+- Beenden während eines Update-Downloads stürzt nicht mehr ab; lange Fotopfade in den Einstellungen zerschießen die ini nicht mehr
+- **Festgesteckt beim Laufen**: Wechselte die Kamera (z. B. Spielstand aus dem Esc-Menü geladen), blieb die Tastatur gesperrt – jetzt endet das Laufen nach 1,5 s von selbst
+- **Tasten blieben im Spiel „gedrückt“**: Loslassen geht jetzt immer ans Spiel – vorher fuhr der Truck z. B. weiter, wenn man beim Gasgeben das Menü öffnete, oder Strg hing nach Strg + F7
+- Nach einer Abschaltung von BeyondCab (Speicherfehler) bleiben Controller, Esc, Verkehr und Taschenlampe nicht mehr blockiert
+- Aussteigen/Einsteigen gibt bei hohen Bildraten nicht mehr nach 0,3 s auf (jetzt 2 s)
+- Nach dem Laden eines anderen Spielstands: Boden und Kollision beim nächsten Aussteigen sauber neu, Beifahrersitz/Liege zurück, keine unsichtbaren Wände
+- Über einer echten Kante (Kai, Parkdeck) schwebt man nicht mehr endlos – das Halten auf Brückenhöhe endet nach 25 m
+- Profilwechsel bzw. älterer Spielstand: Papiere, Aufgestelltes und Fahrtenschreiber des alten Profils werden nicht mehr gekürzt; derselbe Auftrag aus einem älteren Spielstand lädt den Frachtbrief richtig
+- Nach dem Übermüdungs-Bußgeld des Spiels kommt bei der Kontrolle nicht noch „Ruhezeit überzogen“ dazu
+- Ausrüstung: kein falsches Modell mehr an einem wiederverwendeten Platz, kein Absturzrisiko beim Wegräumen während des Zeichnens; Alt+Tab mitten im Funkschlüssel lässt Shift/Strg nicht mehr hängen
+- Menü: Öffnen/Schließen mit Strg + F7 konnte selten abstürzen; Regler ziehen ruckelt nicht mehr (gespeichert wird beim Loslassen); „Alle Einstellungen zurücksetzen“ behält Name, Anschrift, PIN und Führerschein und startet die Einführung nicht neu; eine Taste wird nicht mehr versehentlich belegt, wenn man nach „Ändern“ das Menü schließt oder in der Suche tippt
+- Einstellungen: zwei gleichzeitige Speichervorgänge konnten die ini beschädigen
+- Installer: schlug das Schreiben bei einem der beiden Spiele fehl, blieb die Installation halb; jetzt werden beide versucht (mit Wiederholung) und das Erfolgreiche eingetragen
+- Stabilität: Fahrzeugpositionen, Blitzer-Bescheid und Physik-Suche ohne gleichzeitigen Zugriff; Beenden des Spiels während einer Suche oder mitten im Zeichnen stürzt nicht mehr ab; beschädigte Spielarchive bringen das Spiel nicht mehr zum Absturz
+- Nach einem Spiel-Update: die Feststellbremse wird nur noch gesetzt, wenn ihr Speicherwert nachweislich zum Spiel passt
+- **Spielstand geladen**: das Pannenkit wurde nicht mehr fälschlich als „in der Werkstatt aufgefüllt“ bezahlt, der Pannendienst rechnet keine Reparatur aus dem verworfenen Spielverlauf mehr ab, es entsteht keine falsche Abschlepprechnung und Tanken vor und nach dem Laden landet nicht mehr auf einem Beleg
+- Pannenkit: die Sperre „Auflieger schon geflickt“ geht beim Neustart des Spiels nicht mehr verloren
+- Schlafen: blieb der Schlaf-Dialog länger als 3 Minuten offen, gingen danach beim Laufen Tasten ans Spiel
+- Profilwechsel: die eigene Bus-Türtaste wird neu gelesen, der unterschriebene Frachtbrief des vorigen Profils liegt nicht mehr bereit
+- Das Fensterheber-Geräusch lief endlos, wenn eigene Töne währenddessen ausgeschaltet wurden
+- **Blitzer**: Nach dem Laden eines etwas älteren Spielstands kam der Bescheid für ein Foto, das es dort nie gab, trotzdem – mit Abbuchung
+- **Fähre**: Der Rundgang am Hafen galt nach dem Laden eines älteren Spielstands bzw. nach einem Profilwechsel weiter; eine Überfahrt aus dem anderen Profil konnte im neuen abgerechnet werden
+- Wiegestation: ein gerade gemeldetes Bußgeld des Spiels wurde von der Kontrolle überschrieben (auch die doppelte Ruhezeit-Strafe kam so zurück)
+- Papiere: ein älterer Spielstand direkt nach dem Spielstart entfernte die späteren Belege nicht; die zweite Tankseite überschrieb nach dem Löschen des ersten Belegs den Beleg der vorigen Tankstelle; Russisch: Status „quittiert“ und „Polizei“ wieder farbig
+- **Frachtbrief nach Abbrechen/Liefern und Neuladen**: Lud man nach dem Abbrechen (oder Liefern) einen Spielstand von davor, waren die schon genommenen Papiere weg – die nächste Kontrolle verlangte Bußgeld für den fehlenden Frachtbrief, die Lieferung lief „unter Vorbehalt“
+- Nach dem Laden eines älteren Spielstands: kein halber Kuppel-Ablauf mehr am frisch geladenen Auflieger (sonst kam gleich der Hebel), Tacho-Ausdruck, Tankbeleg sowie Maut- und Fährbeleg aus dem verworfenen Verlauf weg; der Funkschlüssel-Zustand „abgeschlossen“ verhindert das Einsteigen nach dem Laden nicht mehr
+- Einsteigen: ein verzögertes Einsteigen (Tür zuerst, Bustüren) zieht einen nicht mehr in die Kabine, wenn man inzwischen weggegangen ist oder das Laufen schon beendet war
+- Sitzwechsel: wechselte man währenddessen auf eine Außenkamera, blieb die Maus eingefroren; Esc beim Tanken lässt die Enter-Taste nicht mehr gedrückt
+- Pannenkit: nach dem Laden eines älteren Spielstands gilt wieder der Inhalt von damals (vorher blieb ein bezahltes Auffüllen bzw. ein Verbrauch bestehen); Busfahrplan: keine Ankunftszeiten mehr aus dem verworfenen Verlauf
+- **Unterlegkeile beim Profilwechsel**: der Auftrag des neuen Profils wurde noch dem alten zugerechnet – dort verschwanden Keile bzw. kamen beim Zurückwechseln doppelt an den Auflieger; beim Spielstart mit laufendem Auftrag wurden fehlende Keile nicht mehr gestellt
+- **Funkschlüssel**: nach einer Abschaltung von BeyondCab (Speicherfehler) bzw. beim Beenden blieben vom Schlüssel gedrückte Tasten (Shift, Hupe, Fenster) unten; Alt+Tab beim Halten ließ die Fenster weiterfahren
+- Eine Aktionstaste (z. B. E zum Aussteigen), die man nach dem Auslösen noch hält, kommt nicht mehr doch beim Spiel an
+- Ausrüstung: konnte ein Modell nicht platziert werden, blieb es belegt (konnte das Beenden aufhalten)
+- Menü: Mausbewegung bei offenem Menü und das Zeichnen griffen ohne Absprache auf dieselbe Eingabe-Liste zu (mögliche Abstürze); PIN der Tankkarte nimmt nur noch Ziffern (mit „.“ oder „-“ wurde die Karte an jeder Säule abgelehnt); Namen und Anschrift fassen jetzt auch auf Russisch/Chinesisch die volle Länge; Tasten-Erfassen belegt nicht mehr versehentlich F7/O vom Menü-Kürzel, Controller-Knopf-Erfassen endet beim Seitenwechsel
+- Entfernen (Setup): ließ sich die DLL nicht löschen, hieß es trotzdem „entfernt“ und der Eintrag unter Apps war weg – jetzt Meldung mit der Datei, der Eintrag bleibt. Update aus dem Spiel: geht in den selbst gewählten Spielordner statt in eine andere (Steam-)Kopie
+- Schlägt ein Update aus dem Spiel fehl, meldet BeyondCab das beim nächsten Start (vorher blieb man unbemerkt auf der alten Version)
+- **Niedrige Bildrate**: unter etwa 14 fps schaukelte der Kopf nach einer Landung stark, unter etwa 11 fps konnte die Kamera ganz kaputtgehen – jetzt stabil
+- Brücke ohne Fahrbahn: das Halten auf Truck-Höhe galt beim nächsten Aussteigen an einer anderen Brücke noch als „verbraucht“ – man fiel durch
+- Strg + F7 sperrt Maus und Tastatur nicht mehr, wenn das Menü gar nicht angezeigt werden kann; Sitz-Sendungssuche braucht nicht mehr Hunderte MB Speicher
+- **Ziffernblock**: auf „Num 0“ … „Num 9“ gelegte Tasten gingen bei eingeschaltetem NumLock nicht; Pfeiltasten, Einfg/Entf, Pos1/Ende und Bild auf/ab werden beim Belegen als die richtigen Tasten erkannt (vorher als Ziffernblock)
+- Kuppeln: liegt „Ankuppeln“ im Spiel auf Strg/Alt/Shift + Taste, sagt BeyondCab jetzt, dass es die Taste ohne Modifikator braucht (sonst kam „Zustand nicht erreicht“); eine Modifikator-Belegung für den Controller gilt nicht mehr für die Tastatur-Taste
+- Funkschlüssel nach einer Abschaltung: auch die Fensterheber werden losgelassen
+- **Wegfahren nach dem Abkoppeln**: die Fahrsperre („Stützen unten“/„Luftleitungen ab“) hielt auch nach einem echten Abkoppeln die Feststellbremse fest, solange der Zapfen noch in der Platte stand – man kam vom abgestellten Auflieger nicht weg
+- Controller: ein beim Einsteigen noch gehaltener Knopf (z. B. X) löste im Spiel nicht mehr seine Funktion aus (Warnblinker); leere Controller-Plätze werden nur noch alle 2 s abgefragt
+- `beyondcab.ini` von Hand: Leerzeichen um „=“ und `true`/`yes`/`on` werden verstanden; bei doppelten Zeilen in der `config.cfg` gilt wie im Spiel die letzte
+- Taschenlampe: blieb das echte Licht nach einem Ladebildschirm oder einer Fähre mit eingeschalteter Lampe für die ganze Sitzung aus (nur noch der Bildschirm-Effekt), geht es jetzt weiter
+- PDF-Export: chinesische Titel mit bestimmten Zeichen (z. B. 不) standen in den Dokument-Eigenschaften falsch; Führerschein mit Geburtstag 29.02. zeigt kein unmögliches Ablaufdatum mehr; Russisch: Kuppel-Meldungen nicht mehr am Ende abgeschnitten
+- **Fahrtenschreiber**: nach der ersten 45-Minuten-Pause reichten danach immer 30 Minuten (die volle Pause galt als „erste 15“); derselbe Lenkzeit-Verstoß einer noch laufenden Schicht wurde bei jeder weiteren Kontrolle erneut bestraft; eine geteilte Tagesruhe mit erstem Teil von 7 bis 9 h (erlaubt, wenn der zweite Teil von 9 h innerhalb von 24 h folgt) wurde sofort als „Ruhezeit zu kurz“ bestraft
+- Frachtbrief: ein Spielstand von vor der Übergabe beim Empfänger ließ den Brief „abgegeben“ – danach kam kein Mitarbeiter und keine Übergabe mehr; Vermerke beim Quittieren erscheinen nicht mehr doppelt; der Frachtbrief einer Road-Trip-Sendung bleibt nach Abbruch nicht mehr offen in der Mappe
+- Halten-Aktionen: schwenkte man mit gehaltener Taste zum nächsten Prüfpunkt, war er in Sekundenbruchteilen „fertig“, und bei der Licht-Prüfung gingen die Leuchten nicht an („Rückleuchten dunkel“); vom vorigen Schritt herübergeschwenkt, fing das Tanken nicht mehr von selbst an
+- Tankkarte: die Zahlung an einer Säule galt nach dem Wegfahren weiter – Tage später an derselben Säule wurde ohne Karte getankt
+- Profilwechsel: in ein Profil mit späterer Spielzeit buchte der Fahrtenschreiber den Sprung als Ruhe ins vorige Profil; ein Bus- bzw. Road-Trip-Auftrag des neuen Profils ging verloren bzw. der des alten blieb; ein halber Kuppel-Ablauf wird zurückgesetzt. Werkstattbesuch nach über 24 h Fahrt setzt Sitz und Physik nicht mehr zurück
+- Laden eines **neueren** Spielstands mit demselben Truck wird jetzt erkannt (am Sprung des Kilometerstands): Funkschlüssel-Sperre, Pannendienst und Tankstopp gelten danach nicht mehr weiter
+
+---
+
+### New
+
+- **Русский**: Russian in the language selection (Auto on a Russian Windows) – translation by **boss-22-boss** (issue #7), thank you! The language selector now has its own row
+
+### Fixed
+
+- **No key worked** (issue #6, probably also #5): if the game's `config.cfg` contains `uset g_console_state "1"`, BeyondCab thought the console was open and ignored Ctrl + F7, E and the controller button. That saved value now only counts once the console has been closed
+- The "developer camera off" hint also appeared when `config.cfg` couldn't be read; now only when the lines really are 0 – and only once you're in the game, for 15 seconds
+- Menu at 1440p/4K: clicks right after a mouse move sometimes missed
+- Russian/Chinese: paper status (paid, expired …) coloured again, expired certificates red; long texts no longer cut off; the US Bill of Lading stays English; weekdays, country names and sentences with keys can now be translated
+- The "Papers" heading under Display showed German in the English menu
+- Log: long mod lists complete, ignored keys with the reason, fewer repeated lines
+- **User names with Cyrillic or Chinese characters** (or OneDrive Documents): BeyondCab couldn't find the game profile – papers, repair kit and tachograph were never saved, settings went into the plugin folder and the custom models (warning light, chocks …) were missing. The previous settings and papers from the plugin folder are taken over on the first start
+- **Speed cameras**: a pending notice was charged in the other profile after switching profiles
+- **Tachograph**: after loading an older save, driving time, break and card stayed at the later state – a check could fine you wrongly or miss offences
+- Toll and ferry receipts still listed the trailer after uncoupling
+- Console: with a saved `g_console_state "1"` the first time you open the console now counts too (typing doesn't trigger anything)
+- Quitting during an update download no longer crashes; long photo paths in the settings no longer break the ini
+- **Stuck while walking**: if the camera changed (e.g. a save loaded from the Esc menu), the keyboard stayed blocked – walking now ends by itself after 1.5 s
+- **Keys stuck "pressed" in the game**: releases now always reach the game – before, the truck kept going if you opened the menu while accelerating, or Ctrl stuck after Ctrl + F7
+- After BeyondCab switches itself off (memory error), controller, Esc, traffic and flashlight are no longer left blocked
+- Getting out/in no longer gives up after 0.3 s at high frame rates (now 2 s)
+- After loading another save: ground and collision start clean on the next exit, passenger seat/bunk reset, no invisible walls
+- **Loading a save**: the repair kit is no longer wrongly charged as "topped up at the workshop", the breakdown service no longer bills a repair from the discarded timeline, no false towing invoice appears, and fuel before and after loading no longer ends up on one receipt
+- Repair kit: the "trailer already patched" limit is no longer lost when the game restarts
+- Sleeping: if the sleep dialog stayed open for more than 3 minutes, keys went to the game while walking afterwards
+- Profile switch: the own coach door key is read again, the signed consignment note of the previous profile is no longer waiting
+- The window motor sound looped forever if own sounds were switched off meanwhile
+- **Speed cameras**: after loading a slightly older save, the notice for a photo that never happened there still came – and was charged
+- **Ferry**: the port walk-round stayed valid after loading an older save or switching profiles; a crossing from the other profile could be billed in the new one
+- Weigh station: the check overwrote a fine the game had just reported (which also brought back the double rest fine)
+- Papers: an older save loaded right after starting the game didn't remove the later receipts; after deleting the first receipt, the second pump side overwrote the previous station's receipt; Russian: "signed" and "police" status coloured again
+- **Consignment note after cancelling/delivering and reloading**: loading a save from before the cancellation (or delivery) lost the papers you had already taken – the next check fined you for a missing CMR and delivery went through "with reservation"
+- After loading an older save: no half-finished coupling sequence on the freshly loaded trailer (the lever came next), tachograph printout, fuel receipt and toll/ferry tickets from the discarded timeline are gone; the remote key's "locked" state no longer blocks getting in after loading
+- Getting in: a delayed get-in (door first, coach doors) no longer pulls you into the cab if you walked away meanwhile or walking had already ended
+- Seat change: switching to an outside camera during it left the mouse frozen; Esc while refuelling no longer leaves Enter held
+- Repair kit: after loading an older save, the contents from back then apply again (before, a paid top-up or used parts stayed); coach timetable: no arrival times from the discarded timeline
+- **Wheel chocks on profile switch**: the new profile's job was still applied to the old one – chocks vanished there or appeared twice at the trailer when switching back; starting the game with a running job no longer placed missing chocks
+- **Remote key**: after BeyondCab switched itself off (memory error) or on quitting, keys pressed by the key fob (Shift, horn, windows) stayed down; Alt+Tab while holding it kept the windows moving
+- An action key (e.g. E to get out) that is still held after it triggered no longer reaches the game after all
+- Equipment: if a model couldn't be placed, its slot stayed taken (could hold up quitting)
+- Menu: moving the mouse with the menu open and drawing accessed the same input list without coordination (possible crashes); the fuel card PIN only accepts digits (with "." or "-" the card was refused at every pump); names and address now take the full length in Russian/Chinese too; key capture no longer grabs F7/O from the menu shortcut by accident, controller button capture ends when the page changes
+- Removal (setup): if the DLL couldn't be deleted, it still said "removed" and the Apps entry was gone – now it names the file and keeps the entry. In-game update: goes into the game folder you chose instead of another (Steam) copy
+- If an in-game update fails, BeyondCab now says so on the next start (before, you silently stayed on the old version)
+- **Low frame rates**: below about 14 fps the head bobbed strongly after a landing, below about 11 fps the camera could break completely – now stable
+- Bridge without road surface: holding at truck height still counted as "used up" at the next exit on another bridge – you fell through
+- Ctrl + F7 no longer blocks mouse and keyboard when the menu can't be shown at all; the seat parcel search no longer uses hundreds of MB
+- **Numpad**: keys bound to "Num 0" … "Num 9" didn't work with NumLock on; arrow keys, Insert/Delete, Home/End and Page Up/Down are recognised as the right keys when binding (before: as numpad)
+- Coupling: if the game's "attach" is bound to Ctrl/Alt/Shift + key, BeyondCab now says it needs the key without a modifier (otherwise "state not reached"); a controller binding's modifier no longer applies to the keyboard key
+- Remote key after a shutdown of BeyondCab: the window switches are released too
+- **Driving away after uncoupling**: the drive lock ("landing gear down"/"air lines off") still held the parking brake after a real uncoupling while the kingpin sat in the plate – you couldn't drive away from the dropped trailer
+- Controller: a button still held when getting in (e.g. X) no longer triggers its game function (hazard lights); empty controller slots are only polled every 2 s
+- `beyondcab.ini` by hand: spaces around "=" and `true`/`yes`/`on` are understood; with duplicate lines in `config.cfg` the last one counts, as in the game
+- Flashlight: if the real light dropped out for the whole session after a loading screen or ferry with the lamp on (only the screen effect left), it now keeps working
+- PDF export: Chinese titles with certain characters (e.g. 不) were wrong in the document properties; a licence with birthday 29 Feb no longer shows an impossible expiry date; Russian: coupling messages no longer cut off at the end
+- **Tachograph**: after the first 45-minute break, 30 minutes were always enough afterwards (the full break counted as the "first 15"); the same driving-time offence of a still running shift was fined again at every further check; a split daily rest with a first part of 7 to 9 h (legal if the 9 h second part follows within 24 h) was fined straight away as "rest too short"
+- Consignment note: a save from before the handover at the receiver left the note "handed over" – no worker and no handover afterwards; remarks on signing no longer appear twice; a Road Trip parcel's bill of lading no longer stays open in the folder after cancelling
+- Hold actions: swinging over to the next check point while holding the key finished it in a fraction of a second, and the light check didn't switch the lights on ("rear lights dark"); coming over from the previous step no longer starts refuelling by itself
+- Fuel card: the payment at a pump stayed valid after driving off – days later the same pump fuelled without the card
+- Profile switch: into a profile with a later game time, the tachograph booked the jump as rest in the previous profile; a coach or Road Trip job of the new profile was lost or the old one stayed; a half-finished coupling sequence is reset. A workshop visit after more than 24 h of driving no longer resets the seat and physics
+- Loading a **newer** save with the same truck is now detected (by the odometer jump): the remote key lock, breakdown service and fuel stop no longer carry over
+- You no longer float endlessly over a real edge (quay, car park deck) – holding bridge height ends after 25 m
+- Profile switch or older save: the old profile's papers, placed items and tachograph are no longer trimmed; the same job from an older save loads its consignment note correctly
+- After the game's fatigue fine, a check no longer adds "rest overdue" on top
+- Equipment: no wrong model on a reused spot, no crash risk when removing while drawing; Alt+Tab in the middle of the remote key no longer leaves Shift/Ctrl stuck
+- Menu: opening/closing with Ctrl + F7 could rarely crash; dragging a slider no longer stutters (saved on release); "Reset all settings" keeps name, address, PIN and licence and doesn't restart the introduction; a key is no longer bound by accident when you close the menu or type in the search after "Change"
+- Settings: two saves at the same time could corrupt the ini
+- Installer: if writing failed for one of the two games, the install was left half-done; now both are tried (with retries) and the successful one is registered
+- Stability: vehicle positions, speed camera notice and physics search without concurrent access; quitting the game during a search or while drawing no longer crashes; damaged game archives no longer crash the game
+- After a game update: the parking brake is only set if its memory value provably matches the game
+
+## 1.4.3
+
+### Verbessert
+
+- **Menü in hohen Auflösungen**: Das Menü (Strg + F7), die Hinweise und die Markierungen wachsen mit der Auflösung mit – in 1440p und 4K sind sie nicht mehr winzig, die Schrift bleibt scharf. Frachtbrief, Belege und Zapfsäule sehen aus wie bisher
+- **Beenden mit anderen Plugins**: Laufen weitere Plugins mit (z. B. CabPlay), stürzt das Spiel beim Beenden nicht mehr ab
+
+---
+
+### Improved
+
+- **Menu at high resolutions**: the menu (Ctrl + F7), the hints and the markers now scale with your resolution – no longer tiny in 1440p and 4K, with sharp text. Waybill, receipts and fuel pump look the same as before
+- **Quitting with other plugins**: when other plugins run alongside (e.g. CabPlay), the game no longer crashes on exit
+
 ## 1.4.2
 
 ### Verbessert
