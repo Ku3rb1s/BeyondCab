@@ -7,7 +7,7 @@
 **Raus aus der Kabine.**<br>
 Aussteigen, um den Truck gehen, von Hand kuppeln, Papiere unterschreiben, tanken, Pannen beheben und Pause machen – zu Fuß und aus der Ich-Sicht in **Euro Truck Simulator 2** und **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.4.4-ff9500)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.4.5-ff9500)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 und ATS](https://img.shields.io/badge/Spiele-ETS2%20%7C%20ATS-34c759)
 ![Kostenlos](https://img.shields.io/badge/kostenlos-ohne%20Konto-ff9f0a)
@@ -229,7 +229,7 @@ Töne und Listen (Bänke, Tankstellen, Parkplätze) stecken in der DLL. In `Doku
 
 Eigene Töne: Eine Datei mit demselben Namen in `BeyondCab\sounds\` ersetzt den eingebauten Ton (zum Beispiel `truck_lock.wav`).
 
-BeyondCab schreibt ein eigenes Log nach `BeyondCab\beyondcab.log`; auch im Spiel-Log (`Dokumente\<Spiel>\game.log.txt`) stehen alle Meldungen mit `[BeyondCab]` davor. Bei einer Fehlermeldung bitte `beyondcab.log` anhängen.
+BeyondCab schreibt ein eigenes Log nach `BeyondCab\beyondcab.log`; auch im Spiel-Log (`Dokumente\<Spiel>\game.log.txt`) stehen alle Meldungen mit `[BeyondCab]` davor. Bei einer Fehlermeldung bitte `beyondcab.log` anhängen – und, wenn vorhanden, `beyondcab_trace.txt` (gepackt als .zip): Darin stehen die letzten Minuten vor dem Beenden des Spiels (was das Spiel an BeyondCab gemeldet hat), damit sich der Fehler ohne Spiel nachstellen lässt.
 
 </details>
 

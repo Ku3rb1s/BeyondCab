@@ -7,7 +7,7 @@
 **Step out of the cab.**<br>
 Get out, walk around your truck, couple by hand, sign your papers, refuel, fix breakdowns and take a break – on foot and in first person in **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-[![Version](https://img.shields.io/badge/Version-v1.4.4-ff9500)](../../releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.4.5-ff9500)](../../releases/latest)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f6feb)
 ![ETS2 and ATS](https://img.shields.io/badge/Games-ETS2%20%7C%20ATS-34c759)
 ![Free](https://img.shields.io/badge/free-no%20account-ff9f0a)
@@ -229,7 +229,7 @@ Sounds and lists (benches, fuel stations, parking) are built into the DLL. `Docu
 
 Your own sounds: a file with the same name in `BeyondCab\sounds\` replaces the built-in sound (for example `truck_lock.wav`).
 
-BeyondCab writes its own log to `BeyondCab\beyondcab.log`; the game log (`Documents\<game>\game.log.txt`) also lists every message, prefixed with `[BeyondCab]`. Attach `beyondcab.log` when you report a problem.
+BeyondCab writes its own log to `BeyondCab\beyondcab.log`; the game log (`Documents\<game>\game.log.txt`) also lists every message, prefixed with `[BeyondCab]`. Attach `beyondcab.log` when you report a problem – and, if it's there, `beyondcab_trace.txt` (zipped): it holds the last minutes before the game was closed (what the game reported to BeyondCab), so the problem can be replayed without the game.
 
 </details>
 

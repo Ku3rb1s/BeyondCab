@@ -1,5 +1,55 @@
 # Änderungen · Changelog
 
+## 1.4.5
+
+### Neu
+
+- **Erst Papiere, dann abkoppeln** (Issue #8, Wunsch von STyx2909): am Ziel wird zu Fuß erst abgekoppelt, wenn der Frachtbrief beim Mitarbeiter abgegeben ist – Hinweis am Auflieger. Ist der Mitarbeiter nicht erreichbar, wird er geholt; geht auch das nicht, ist Abkoppeln wie bisher möglich
+
+### Behoben
+
+- **Mitarbeiter unerreichbar** (Issue #8): er wurde z. B. oben auf eine Laderampe gestellt (bis 1,5 m höher als der Auflieger) – jetzt nur noch auf Boden, den man zu Fuß erreicht. Steht er trotzdem hinter Ladung oder einer Kante und man kommt nicht heran, tritt er neben einen
+- Abschlepp-Erkennung: beim Spielstart galt die erste gemeldete Lage als Sprung von über 20 km (nur ein Fehlalarm im Log)
+- Daten aus dem Plugin-Ordner (bis 1.4.2 bei nicht darstellbarem Dokumente-Pfad): jetzt wird nur die `beyondcab.ini` übernommen – keine doppelten Kopien mehr, gelöschte Papiere kommen nicht zurück
+- Kuppeln zu Fuß: ist die Anhänger-Taste im Spiel nicht belegt, kam beim Stützen-Hochkurbeln und am Königszapfen-Hebel kein Hinweis (das Log behauptete sogar „trailer key pressed“) – jetzt Hinweis „Anhänger-Taste nicht gefunden“ und eine ehrliche Log-Zeile
+- Nach einer ordentlichen Übergabe des Frachtbriefs konnte nach der Lieferung der Hinweis „Empfänger: ohne Frachtbrief … unter Vorbehalt“ kommen, solange der Auflieger noch im Lieferfeld stand
+- Tankkarte: nach der Freigabe am Terminal ließ sich der Tankdeckel 2 s lang nicht öffnen („E tut nichts“) – jetzt schließt Drücken am Deckel die Anzeige gleich
+
+### Log
+
+- Jeder Druck der Aktionstaste steht im Log, mit der angebotenen Aktion („nothing offered“, „trailer step“ …)
+- Beim Laden: eigene Tasten mit der Funktion, die das Spiel auf derselben Taste hat, Modifikator der Anhänger-Taste und die „activate“-Taste
+- Log durchgehend englisch (rund 60 Zeilen waren noch deutsch: Warnleuchte, Physik, Kamera, Pause …; dazu Polizeikontrolle, Verkehr, Kuppel-Schritte, Sitzplätze, Tore, Abschließen, Raumklang, Road-Trip-Sendung, Tankbeleg und Maut mit Städtenamen in der Spielsprache, Lesefehler der Spieldateien, abgefangene Fehler); doppelte Anhänger-Zeilen beim Laden entfallen
+- Ein über 24 Spielstunden späterer Spielstand steht jetzt im Log (bisher nur das Laden eines älteren)
+- Kuppeln (Issue #8): kommt man nicht nah genug an einen Punkt (z. B. Auflieger an einer Mauer), stehen der nächste Abstand und ein versperrter Weg im Log; ist ein Punkt in Reichweite, aber nicht angeboten, steht der Grund dabei
+- **Aufzeichnung der letzten Minuten**: beim Beenden des Spiels schreibt BeyondCab `beyondcab_trace.txt` (höchstens 8 MB) – was das Spiel gemeldet hat, damit sich ein Fehler ohne Spiel nachstellen lässt. Bei Fehlermeldungen bitte gezippt mitschicken
+- **Selbstprüfungen**: BeyondCab prüft laufend Zustände, die nie vorkommen dürfen (ungültige Position, Tastatur gesperrt ohne zu laufen, Papiere aus der „Zukunft“ nach dem Laden, Pannendienst für einen anderen Truck, kein Profil, Overlay hört auf, ungewöhnlich hohe Abbuchung). Tritt einer auf, steht „Self-check failed“ im Log und die Minuten davor werden sofort in `beyondcab_trace_check.txt` gesichert; eine gesperrte Tastatur wird freigegeben
+
+---
+
+### New
+
+- **Papers first, then uncouple** (issue #8, requested by STyx2909): at the receiver, uncoupling on foot waits until the consignment note is handed to the worker – a hint at the trailer says so. If the worker can't be reached he comes over; if even that fails, uncoupling works as before
+
+### Fixed
+
+- **Worker out of reach** (issue #8): he could be placed e.g. on top of a loading dock (up to 1.5 m above the trailer) – now only on ground you can reach on foot. If he still stands behind cargo or an edge and you can't get to him, he steps next to you
+- Tow detection: at game start the first reported position counted as a jump of over 20 km (only a false alarm in the log)
+- Data from the plugin folder (until 1.4.2 when the Documents path wasn't usable): now only `beyondcab.ini` is taken over – no duplicate copies, deleted papers don't come back
+- Coupling on foot: if the game's attach key isn't bound, cranking the landing gear up and the kingpin lever gave no hint (the log even said "trailer key pressed") – now a "trailer key not found" hint and an honest log line
+- After handing in the consignment note properly, the hint "receiver: without a consignment note … with reservation" could appear after delivery while the trailer was still in the delivery spot
+- Fuel card: after the terminal approved the payment, the fuel cap couldn't be opened for 2 s ("E does nothing") – pressing at the cap now closes the display right away
+
+### Log
+
+- Every press of the action key is logged with the offered action ("nothing offered", "trailer step" …)
+- On loading: own keys with the game function bound to the same key, the attach key's modifier and the "activate" key
+- Log fully in English (about 60 lines were still German: warning light, physics, camera, break …; also the police check, traffic, coupling steps, seats, gates, locking, 3D sound, the Road Trip parcel, fuel receipt and toll with city names in the game language, game file read errors, caught errors); duplicate trailer lines on loading are gone
+- Loading a save more than 24 game hours later is now logged (so far only loading an older one)
+- Coupling (issue #8): if you can't get close enough to a point (e.g. trailer against a wall), the closest distance and a blocked way are logged; if a point is in reach but not offered, the reason is logged
+- **Recording of the last minutes**: when the game closes, BeyondCab writes `beyondcab_trace.txt` (8 MB at most) – what the game reported, so a problem can be replayed without the game. Please attach it zipped when you report a problem
+- **Self-checks**: BeyondCab keeps checking for states that must never happen (invalid position, keyboard blocked while not walking, papers from the "future" after loading, breakdown service for another truck, no profile, overlay stops, unusually large charge). If one occurs, "Self-check failed" is logged and the minutes before are saved right away to `beyondcab_trace_check.txt`; a blocked keyboard is released
+
 ## 1.4.4
 
 ### Neu
