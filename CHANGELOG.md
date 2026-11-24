@@ -1,5 +1,25 @@
 # Änderungen · Changelog
 
+## 1.4.6
+
+### Geändert
+
+- **Plombe nur noch an Türen** (Issue #9, STyx2909): Koffer, Kühler, Plane und Container sind verplombt wie bisher – Plombe am Heck prüfen, Nummer auf dem Frachtbrief. Tank- und Siloauflieger haben keine Plombe mehr: keine Prüfung, keine Plombennummer auf Frachtbrief und Verladeschein. Wie bisher gibt es dort keinen Verladeschein (die Ladung ist nicht zu sehen), Wiegeschein und Ladungssicherung bleiben. Tieflader, Pritschen und andere offene Aufbauten hatten nie eine Plombe
+
+### Log
+
+- Wird eine Plombenprüfung angeboten, steht der Aufbau des Aufliegers im Log – ein Auflieger mit unbekanntem Aufbau (DLC, Mod) lässt sich so zuordnen
+
+---
+
+### Changed
+
+- **Seals only on doors** (issue #9, STyx2909): box, reefer, curtainsider and container trailers are sealed as before – check the seal at the rear, number on the consignment note. Tank and silo trailers no longer have a seal: no check, no seal number on the consignment note or loading slip. As before there's no loading slip for them (the cargo can't be seen); weighing slip and load securing stay. Low loaders, flatbeds and other open bodies never had a seal
+
+### Log
+
+- When a seal check is offered, the trailer body is logged – a trailer with an unknown body (DLC, mod) can be identified that way
+
 ## 1.4.5
 
 ### Neu
