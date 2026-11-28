@@ -1,5 +1,55 @@
 # Änderungen · Changelog
 
+## 1.4.7
+
+### Neu
+
+- **Menü verschiebbar** (Wunsch eines Spielers mit mehreren Monitoren – das Menü lag über dem Rand zwischen den Bildschirmen): an einer freien Stelle anfassen und ziehen. Die Lage bleibt gespeichert und passt sich einer anderen Auflösung an; das Menü bleibt immer ganz im Bild. Doppelklick auf eine freie Stelle holt es zurück in die Mitte
+- **Chinesisch vollständig** (Issue #4, Übersetzung von LLBBC): nicht mehr nur das Menü – auch Hinweise, Papiere, Pannenkit und Rechnungen erscheinen jetzt auf 简体中文 / 繁體中文. Rund 80 neuere Texte (z. B. Ländernamen, ADR-Anweisungen) sind noch englisch
+- **Sicherungen der Einstellungen:** beim Spielstart, vor dem Importieren und vor dem Wiederherstellen legt BeyondCab eine Sicherung aller Einstellungen an (mit Name und Führerschein, nur auf diesem PC, Ordner `BeyondCab\backups`, die letzten 10). Menü → Allgemein → Sicherungen: einen Stand auswählen und wiederherstellen – der Stand davor bleibt dabei ebenfalls gesichert
+- **Lupe auf allen Blättern** (Issue #11, JerryVay): Bußgeldbescheid, Rechnung, Führerschein, Wiegeschein, Ausdrucke und Belege – rechte Maustaste halten vergrößert, die Maus verschiebt die Stelle. Zu Fuß und im stehenden Truck (solange die Lupe hält, dreht die Maus nicht die Kamera)
+
+### Behoben
+
+- **Beifahrersitz und Liege: der Truck fuhr los** (Issue #11, JerryVay): dort sieht das Spiel jetzt Gas, Bremse, Lenken und Controller/Lenkrad nicht mehr – vorher fuhr er mit W an und man saß gleich wieder am Steuer. Die Maus bleibt frei zum Umsehen; zurück auf dem Fahrersitz geht alles wie immer
+- **Kuppeln zu Fuß hing in einer Schleife** (Issue #10, LLBBC): fand BeyondCab die Anhänger-Taste des Spiels nicht, verlangte es nach „Stützen hoch“ bzw. am Königszapfen-Hebel immer wieder „nochmal kurbeln/Hebel ziehen“ (beim Ankuppeln blieben dabei die Leitungen ab). Jetzt: Kann die Tastenbelegung gar nicht gelesen werden, drückt BeyondCab die Standardtaste T; liegt „Anhänger“ nur auf Controller oder Lenkrad, endet der Ablauf mit einem Hinweis – im Truck mit der eigenen Taste fertig kuppeln oder unter Optionen › Steuerung eine Tastatur-Taste geben
+- Kuppeln zu Fuß: reagiert das Spiel auch auf die gedrückte Anhänger-Taste nicht (z. B. braucht sie im Spiel Strg/Alt), endet der Ablauf nach drei Versuchen mit einem Hinweis statt endlos „nochmal kurbeln“ zu verlangen
+- Tanken zu Fuß: liegt „Aktivieren“ im Spiel nicht auf der Tastatur, sagt der Hinweis das jetzt – vorher hieß es fälschlich „der Truck muss an einer Zapfsäule stehen“
+- Weniger Speicher: die chinesischen Schriftzeichen werden nur noch geladen, wenn Chinesisch eingestellt ist – und dann nur die gewählte Schrift. Mit der vollen Übersetzung hätte das Overlay sonst für alle 64 MB (in 4K 128 MB) statt 16 MB belegt. Ein Sprachwechsel im Menü lädt die Schrift sofort nach
+- 繁體中文: „anschnallen“ einheitlich 繫 (vorher teils 系/係)
+- **NVIDIA Smooth Motion, Spielfilter, RTX HDR:** BeyondCab legte beim Start kurz eine eigene Swapchain im Spiel an. Mit NVIDIAs Present-Schicht kann das Spiel danach beim Ändern der Grafik-Einstellungen oder bei Alt+Tab abstürzen (so bei CabPlay, Issue #18). Ist die Schicht aktiv, sucht BeyondCab die Stelle jetzt in einem eigenen kleinen Prozess – im Spiel entsteht keine fremde Swapchain mehr. Ohne NVIDIA-Schicht bleibt alles wie bisher
+
+### Log
+
+- Anhänger-Taste: steht jetzt dabei, warum keine gedrückt wurde (Belegung nicht lesbar, nur Controller, oder unbekannter Tastenname)
+- Kuppeln: jeder Fehlversuch mit Zähler („try 1 of 3“); Tanken: welche Taste gehalten wird und warum nichts fließt
+- Mit Chinesisch oder Russisch bleibt das Log jetzt ganz englisch (die Frachtbrief-Zeile enthielt Plombe und Papiere in der Spielsprache)
+
+---
+
+### New
+
+- **Movable menu** (requested by a player with several monitors – the menu sat across the bezel between the screens): grab it at an empty spot and drag it. Its position is saved and adapts to another resolution; the menu always stays fully on screen. Double-click an empty spot to centre it again
+- **Full Chinese** (issue #4, translation by LLBBC): not just the menu any more – hints, papers, the breakdown kit and invoices now appear in 简体中文 / 繁體中文 too. About 80 newer texts (e.g. country names, ADR instructions) are still English
+- **Settings backups:** at game start, before importing and before restoring, BeyondCab backs up all settings (with name and licence, only on this PC, folder `BeyondCab\backups`, the last 10). Menu → General → Backups: pick a state and restore it – the state before it is kept as a backup too
+- **Magnifier on every sheet** (issue #11, JerryVay): fine notices, invoices, licence, weighing ticket, printouts and receipts – hold the right mouse button to zoom in, move the mouse to move the spot. On foot and in the stopped truck (while the magnifier is held, the mouse doesn't turn the camera)
+
+### Fixed
+
+- **Passenger seat and bunk: the truck drove off** (issue #11, JerryVay): there the game no longer receives throttle, brake, steering or controller/wheel input – before, W made it move and you were back behind the wheel. The mouse stays free to look around; back in the driver's seat everything works as usual
+- **Coupling on foot stuck in a loop** (issue #10, LLBBC): if BeyondCab couldn't find the game's trailer key, it kept asking to crank again / pull the lever again after "landing gear up" or at the kingpin lever (when coupling, the lines stayed disconnected). Now: if the controls can't be read at all, BeyondCab presses the default key T; if "Trailer" is only on a controller or wheel, the sequence ends with a hint – finish coupling from the cab with your own key, or give it a keyboard key under Options › Controls
+- Coupling on foot: if the game doesn't react even to the pressed trailer key (e.g. it needs Ctrl/Alt in the game), the sequence ends with a hint after three tries instead of asking to crank again forever
+- Refuelling on foot: if "Activate" isn't on the keyboard in the game, the hint now says so – before, it wrongly said "the truck must stand at a pump"
+- Less memory: Chinese characters are only loaded when Chinese is selected – and then only the chosen script. With the full translation the overlay would otherwise have used 64 MB (128 MB in 4K) instead of 16 MB for everyone. Switching the language in the menu loads the font right away
+- 繁體中文: "buckle up" consistently 繫 (before partly 系/係)
+- **NVIDIA Smooth Motion, game filters, RTX HDR:** at startup BeyondCab briefly created its own swap chain inside the game. With NVIDIA's present layer, the game can then crash when graphics settings change or on Alt+Tab (as seen with CabPlay, issue #18). When the layer is active, BeyondCab now finds the spot in a small separate process – no foreign swap chain in the game any more. Without the NVIDIA layer nothing changes
+
+### Log
+
+- Trailer key: the log now says why none was pressed (controls not readable, controller only, or unknown key name)
+- Coupling: every failed try with a counter ("try 1 of 3"); refuelling: which key is held and why nothing flows
+- With Chinese or Russian the log now stays fully English (the consignment-note line had the seal and papers in the game language)
+
 ## 1.4.6
 
 ### Geändert
